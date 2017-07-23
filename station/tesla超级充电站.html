@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla超级充电站</title>
+    <link rel="shortcut icon" href="image/Tesla.ico"/>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body{
+            font-family: 宋体;
+        }
+
+
+        .navbar-header{
+            background: black;
+        }
+        .navbar{
+            background:black;
+            width: 100%;
+            margin: 0 auto;
+            border-bottom:0;
+        }
+        .nav1{
+            width:100%;
+            margin: 0 auto;
+            line-height: 4rem;
+        }
+        ul>li>a>b:hover{
+            color: grey;
+        }
+        ul>li>a>span{
+            color: white;
+        }
+        ul>li>a>span:hover{
+            color: grey;
+        }
+
+
+
+
+        .header{
+            position: relative;
+            overflow: hidden;
+            margin-bottom:0;
+            top: 2rem;
+        }
+
+        .header img{
+            width: 100%;
+        }
+
+        div.header>div.font1{
+            position:absolute;
+            z-indent:2;
+            left:4em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:lighter;
+        }
+        div.header>div.font2{
+            position:absolute;
+            z-indent:2;
+            left:60em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:100;
+        }
+        div.header>div.font3{
+            position:absolute;
+            z-indent:2;
+            left:65em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:100;
+        }
+        div.header>div.font4{
+            position:absolute;
+            z-indent:2;
+            left:72em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:100;
+        }
+        div.header>div.line1{
+            position:absolute;
+            z-indent:2;
+            top:14rem;
+            left:5em;
+        }
+
+        div.header>div.juxing1{
+            position:absolute;
+            z-indent:2;
+            background-color:white;
+            width: 20em;
+            height:2rem;
+            top:18rem;
+            left:40em;
+            border-radius: 2em;
+        }
+
+        @media only screen and (max-width: 500px){
+            .header{
+
+                display: none;
+            }
+
+        }
+
+        /*.header_3{*/
+            /*position: relative;*/
+            /*overflow: hidden;*/
+            /*width: 50px;*/
+            /*height: 30px;*/
+            /*bottom:20px;*/
+            /*left:-500px;*/
+            /*!*padding-right:80px;*!*/
+            /*top:20px;*/
+        /*}*/
+
+        div.main{
+            position: relative;
+            overflow: hidden;
+            margin-bottom:0;
+            top: 2rem;
+        }
+        .main img{
+            width: 100%;
+        }
+        div.main>div.shangyou{
+            position:absolute;
+            z-indent:2;
+            left:70%;
+            right:5%;
+            top:5%;
+        }
+
+        @media only screen and (max-width: 500px){
+            .main img{
+                width: 100%;
+            }
+            div.main>div.shangyou{
+                left:1em;
+                right:1em;
+                top:7%;
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+        
+        div.main>div.image2_1{
+            position:relative;
+            z-indent:2;
+            width: 15rem;
+            height: 15rem;
+            left:15%;
+            right:70%;
+            top:-10rem;
+        }
+        div.main>div.image2_2{
+            position:relative;
+            z-indent:2;
+            width: 15rem;
+            height: 15rem;
+            left:45%;
+            right:40%;
+            top:-25rem;
+        }
+        div.main>div.image2_3{
+            position:relative;
+            z-indent:2;
+            width: 15rem;
+            height: 15rem;
+            left:70%;
+            right:15%;
+            top:-40rem;
+        }
+
+
+        @media only screen and (max-width: 500px){
+
+           div.main>div.image2_1{
+                position: relative;
+                width: 70%;
+                height: 18rem;
+                left:15%;
+                right:15%;
+                top: 15rem;
+            }
+            div.main>div.image2_2{
+                position: relative;
+                width: 70%;
+                height: 18rem;
+                left:15%;
+                right:15%;
+                top: 30rem;
+            }
+            div.main>div.image2_3{
+                position: relative;
+                width: 70%;
+                height: 18rem;
+                left:15%;
+                right:15%;
+                top: 45rem;
+            }
+
+
+        }
+        /*div.main>div.ft1-1{*/
+            /*position:absolute;*/
+            /*width:220px;*/
+            /*height:101px;*/
+            /*z-indent:2;*/
+            /*left:250px;*/
+            /*top:650px;*/
+            /*font-size:15px;*/
+            /*font-weight:100;*/
+        /*}*/
+        /*div.main>div.ft1-2{*/
+            /*position:absolute;*/
+            /*width:220px;*/
+            /*height:101px;*/
+            /*z-indent:2;*/
+            /*left:630px;*/
+            /*top:650px;*/
+            /*font-size:15px;*/
+            /*font-weight:100;*/
+        /*}*/
+        /*div.main>div.ft1-3{*/
+            /*position:absolute;*/
+            /*width:220px;*/
+            /*height:101px;*/
+            /*z-indent:2;*/
+            /*left:1010px;*/
+            /*top:650px;*/
+            /*font-size:15px;*/
+            /*font-weight:100;*/
+        /*}*/
+
+        div.main>div.ziji{
+            position: relative;
+            overflow: hidden;
+            margin-bottom:0;
+            top: 2rem;
+        }
+        div.main>div.ziji>div.dive{
+            position: relative;
+            /*overflow: hidden;*/
+            width:80%;
+            height: 5rem;
+            margin-bottom:0;
+            left:10%;
+            /*right:80px;*/
+            top:0rem;
+            background:gray;
+            opacity: 0.5;
+        }
+        div.main>div.ziji>div.dive1{
+            position: relative;
+            /*overflow: hidden;*/
+            width: 80%;
+            height: 5rem;
+            margin-bottom:0;
+            /*left:80px;*/
+            /*right:80px;*/
+            left:10%;
+            top:0rem;
+            background:gray;
+            opacity: 0.5;
+        }
+        @media only screen and (max-width: 500px){
+            .ziji{
+
+                display: none;
+            }
+
+        }
+        .search{
+            position: relative;
+            width:40%;
+            height: 10rem;
+            top:2rem;
+            left:30%;
+            right: 30%;
+            text-align: center;
+        }
+        @media only screen and (max-width: 500px){
+            .search{
+
+                top:60rem;
+            }
+
+        }
+
+
+        /*div.main>div.ziji>div.dive>div.ft3{*/
+            /*position:absolute;*/
+            /*!*width:300px;*!*/
+            /*!*height:80px;*!*/
+            /*z-indent:2;*/
+            /*!*left:1010px;*!*/
+            /*!*top:650px;*!*/
+            /*!*font-size:40px;*!*/
+            /*!*font-weight:400;*!*/
+        /*}*/
+
+        /*div.main>div.ziji>div.dive1>div.juxing2{*/
+            /*position:absolute;*/
+            /*z-indent:2;*/
+            /*background-color:white;*/
+            /*width: 300px;*/
+            /*height:20px;*/
+            /*left:650px;*/
+            /*top:10px;*/
+            /*border-radius: 10px;*/
+            /*text-align: center;*/
+        /*}*/
+
+
+
+
+        div.main>div.dixia{
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            /*height: 2020px;*/
+            margin-bottom:0;
+            /*left:80px;*/
+            /*right:80px;*/
+            top:10rem;
+        }
+        div.main>div.dixia>div.ft1{
+            position:relative;
+            z-indent:2;
+            left: 20%;
+            right:20%;
+            width: 60%;
+            /*height: 100rem;*/
+            top:2rem;
+            text-align: center;
+        }
+        div.main>div.dixia>div.ft2{
+            position:relative;
+            z-indent:2;
+            left: 20%;
+            right:20%;
+            width: 60%;
+            /*height: 100rem;*/
+            top:2rem;
+           height: 30rem;
+           text-align: center;
+        }
+        @media only screen and (max-width: 500px){
+            div.main>div.dixia{
+                top:62rem;
+            }
+
+            div.main>div.dixia>div.ft1{
+                left:10%;
+                right: 10%;
+                width: 80%;
+            }
+
+            div.main>div.dixia>div.ft2{
+                left:10%;
+                right: 10%;
+                width: 80%;
+                height: 100rem;
+                top:0rem;
+            }
+
+        }
+
+
+
+
+
+        .icon-bar{
+            border: 1px solid white;
+        }
+        .btn{
+            border: 0;
+        }
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: rgba(0,0,0,0);
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-brand">
+        <a href="../host/Tesla_HostPage.html"> <img src="image/logo.png" alt="" height="15px"></a>
+    </div>
+    <div class="container" data-toggle="#caidan">
+        <div class="navbar-header">
+            <a class="btn btn-warning navbar-toggle" data-toggle="collapse" href="#caidan" >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" id="caidan">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="../models/htm/models.html" class="md navbar-link "><b>MODEL S</b></a></li>
+                <li><a href="../modelx/modelx/mobileX.html" class="md navbar-link "><b>MODEL X</b></a></li>
+                <li><a href="../model3/htm/model3.html" class="md navbar-link "><b>MODEL 3</b></a></li>
+                <li><a href="#" class="md navbar-link "><b>超级充电站</b></a></li>
+                <li><a href="../energy/energy.html" class="md navbar-link "><b>ENERGY</b></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="mc navbar-link "><span>资讯中心</span></a></li>
+                <li><a href="#" class="mc navbar-link "><span>问题解答</span></a></li>
+                <li><a href="#" class="mc navbar-link" ><span>如何充电</span></a></li>
+                <li><a href="#" class="mc navbar-link "><span>找到我们</span></a></li>
+                <li><a href="#" class="mc navbar-link" ><span>MY TESLA</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="header">
+        <img src="image/1.jpg" alt="" width="" height="630px">
+        <div class="font1">
+            <p style="color:white;">超级充电站</p>
+        </div>
+        <div class="font2">
+            <a style="color:white;" href="http://www.tesla.cn/support/home-charging">家庭充电</a>
+        </div>
+        <div class="font3">
+            <a style="color:white;" href="https://www.tesla.cn/supercharger">超级充电站</a>
+        </div>
+        <div class="font4">
+            <a style="color:white;" href="目的地充电.html">目的地充电</a>
+        </div>
+        <div class="line1">
+            <hr width="1400em" size="2" align="center" color="white">
+        </div>
+        <div class="juxing1">
+            <input type="text" style="left:5em;top: 0.5em;" placeholder="查找充电站">
+        </div>
+</div>
+
+
+
+<div class="main">
+    <img src="image/3.png" class="img-responsive" height="482px" alt="">
+    <div class="shangyou">
+    <div>
+        <p style="color:black;font-size:1.675em;font-weight:bolder;">特斯拉超级充电站网络</p>
+    </div>
+
+        <div>
+            <p style="color:black;font-size:1.375em;font-weight:100;">Tesla 超级充电网络为您的长途驾驶提供充
+            电保障。在超级充电站，Model S 和 Model X 可快速充电，充满仅需
+            几十分钟。 充电站的选址通常位于餐厅、购物中心、WiFi 热点等附近
+            ，方便您停车休息。每个超级充电站均建有多个充电桩，车辆快速补充
+            电量后便可继续您的旅程。</p>
+         </div>
+    </div>
+
+
+    <div class="image2_1">
+        <img src="image/4.png" class="img-responsive" alt="查找站点">
+        <p style="color:black;">查找站点</br>
+            在车载触摸屏上查找下一
+            个超级充电站的具体位置</p>
+    </div>
+    <div class="image2_2">
+        <img src="image/5.png" class="img-responsive" alt="持续充点电">
+        <p style="color:black;">轻松充电</br>
+            在车辆充电时稍作休息，去附近
+            喝杯咖啡或吃点东西</p>
+    </div>
+    <div class="image2_3">
+        <img src="image/6.png" class="img-responsive" alt="继续旅程">
+        <p style="color:black;">继续旅程</br>
+            在手机应用中远程查看车辆的电
+            量和里程，随时准备出发</p>
+    </div>
+    <!--<div class="ft1-1">-->
+        <!--<p style="color:black;">查找站点</br>-->
+            <!--在车载触摸屏上查找下一-->
+            <!--个超级充电站的具体位置</p>-->
+    <!--</div>-->
+    <!--<div class="ft1-2">-->
+        <!--<p style="color:black;">轻松充电</br>-->
+            <!--在车辆充电时稍作休息，去附近-->
+            <!--喝杯咖啡或吃点东西</p>-->
+    <!--</div>-->
+    <!--<div class="ft1-3">-->
+        <!--<p style="color:black;">继续旅程</br>-->
+            <!--在手机应用中远程查看车辆的电-->
+            <!--量和里程，随时准备出发</p>-->
+    <!--</div>-->
+    <div class="ziji">
+    <div class="dive">
+        <p style="color:white; left: 50rem; top: 1rem; font-size: large"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分布图</p>
+    </div>
+
+       <!--轮播 -->
+        <div id="myCarousel" class="carousel slide" style="width: 80%;left: 10%">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="image/7.jpg" style="height: 50rem" alt="First slide">
+                </div>
+                <div class="item">
+                    <img src="image/20.jpg" style="height: 50rem" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img src="image/21.jpeg" style="height: 50rem" alt="Third slide">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+        </div>
+
+        <!-- 控制按钮 -->
+
+        <div style="text-align:center;" class="dive1">
+            <input type="button" class="btn start-slide" value="开始">
+            <input type="button" class="btn pause-slide" value="停止">
+            <input type="button" class="btn prev-slide" value="上一张">
+            <input type="button" class="btn next-slide" value="下一张">
+            <input type="button" class="btn slide-one" value="第一张">
+            <input type="button" class="btn slide-two" value="第二张">
+            <input type="button" class="btn slide-three" value="第三章">
+        </div>
+
+
+
+        <div>
+        <!--<br>-->
+        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <!--<input type="text" style="left:5em;top: 0.5em;" placeholder="查找充电站">-->
+
+    </div>
+    </div>
+    <form role="form" class="search">
+        <div class="form-group">
+            <label for="name">搜索</label>
+            <input type="text" class="form-control" id="name" style="border-color:red;" placeholder="请输入地区">
+        </div>
+        <button type="submit" style="color: #7dbc3f" class="btn btn-default">搜索</button>
+    </form>
+
+    <div class="dixia">
+        <img src="image/8.png" class="img-responsive" alt="">
+        <div class="ft1">
+        <p style="font-size: 40px;font-weight: 200;">
+            免费超级充电额度
+        </p>
+        <p style="font-size: 10px;font-weight: 100;">
+            车主每年可得到 400 kWh 的免费超级充电额度，足够行驶大约 1600 公里。该额度可满足大多数车主的长途驾驶需求，因此公路旅行可以说是完全免费的。行驶里程超过每年额度的客户需支付少量超级充电费——相对于燃油费也是相当划算。
+        </p>
+        <p style="font-size: 40px;font-weight: 200;">
+            超级充电技术
+        </p>
+        <p style="font-size: 10px;font-weight: 100;">
+            超级充电桩将迅速地为您的 Tesla 车辆充电，充电速度会随着电池充电量的上升而逐渐下降。由于我们的充电网络遍布热门线路，因此您不一定需要将电池充电到80%以上。当电量足够继续行驶时，车辆会自动提示您。
+        </p>
+        </div>
+
+
+        <img src="image/9.png" style="top:20rem;height: 10%;" class="img-responsive" alt="">
+        <div class="ft2">
+        <p style="font-size: 40px;font-weight: 200;">
+            超级充电网络
+        </p>
+        <p style="font-size: 10px;font-weight: 100;">
+            我们正在全球范围内努力拓展<a style="color: red;" href="https://www.tesla.cn/findus#/?search=store,service,supercharger,destination%20charger">充电网络</a>，扩建使用频繁的充电站，扩充更多的充电线路。
+            除超级充电站以外，我们还在与各类商旅合作伙伴共建Tesla<a style="color: red;" href="目的地充电.html">目的地充电桩网络</a>，合作伙
+            伴囊括酒店、餐饮、购物中心和度假胜地等，使得您可以在旅行目的地享用和家中一样便
+            捷的充电服务。
+        </p>
+        <p style="font-size: 10px;font-weight: 100;">
+            如果您对 Tesla 充电站合作项目感兴趣，请<a style="color: red;" href="exit_1.html">点击此处。</a>
+        </p>
+        </div>
+    </div>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container" style="text-align: center;">
+        <p style="color:white;text-align: left; font-size: 30px;">目的地充电</p>
+        <button type="button" class="btn btn-link" style="background-color: red;"><a style="color: black" href="定制.html">全新定制车</a></button>
+        <button type="button" class="btn btn-link" style="background-color: red;"><a style="color: black" href="exit_1.html">立即试驾</a></button>
+    </div>
+</div>
+</body>
+
+<script>
+    $(function(){
+        // 初始化轮播
+        $(".start-slide").click(function(){
+            $("#myCarousel").carousel('cycle');
+        });
+        // 停止轮播
+        $(".pause-slide").click(function(){
+            $("#myCarousel").carousel('pause');
+        });
+        // 循环轮播到上一个项目
+        $(".prev-slide").click(function(){
+            $("#myCarousel").carousel('prev');
+        });
+        // 循环轮播到下一个项目
+        $(".next-slide").click(function(){
+            $("#myCarousel").carousel('next');
+        });
+        // 循环轮播到某个特定的帧
+        $(".slide-one").click(function(){
+            $("#myCarousel").carousel(0);
+        });
+        $(".slide-two").click(function(){
+            $("#myCarousel").carousel(1);
+        });
+        $(".slide-three").click(function(){
+            $("#myCarousel").carousel(2);
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tesila超级充电站</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>目的地充电/特斯拉中国</title>
+    <style type="text/css">
+        body{
+            font-family: 宋体;
+        }
+
+
+        .navbar-header{
+            background: black;
+        }
+        .navbar{
+            background:black;
+            width: 100%;
+            margin: 0 auto;
+            border-bottom:0;
+        }
+        .nav1{
+            width:100%;
+            margin: 0 auto;
+            line-height: 4rem;
+        }
+        ul>li>a>b:hover{
+            color: grey;
+        }
+        ul>li>a>span{
+            color: white;
+        }
+        ul>li>a>span:hover{
+            color: grey;
+        }
+
+
+        .header{
+            position: relative;
+            overflow: hidden;
+            margin-bottom:0;
+            top: 2rem;
+        }
+
+        .header img{
+            width: 100%;
+        }
+
+        div.header>div.font1{
+            position:absolute;
+            z-indent:2;
+            left:4em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:lighter;
+        }
+        div.header>div.font2{
+            position:absolute;
+            z-indent:2;
+            left:55em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:100;
+        }
+        div.header>div.font3{
+            position:absolute;
+            z-indent:2;
+            left:58em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:100;
+        }
+        div.header>div.font4{
+            position:absolute;
+            z-indent:2;
+            left:63em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:100;
+        }
+        div.header>div.font5{
+            position:absolute;
+            z-indent:2;
+            left:70em;
+            top:8em;
+            font-size:1.375em;
+            font-weight:100;
+        }
+        div.header>div.line1{
+            position:absolute;
+            z-indent:2;
+            top:14rem;
+            left:5em;
+        }
+
+        div.header>div.juxing1{
+            position:absolute;
+            z-indent:2;
+            background-color:white;
+            width: 20em;
+            height:2rem;
+            top:18rem;
+            left:40em;
+            border-radius: 2em;
+        }
+
+        @media only screen and (max-width: 500px){
+            .header{
+
+                display: none;
+            }
+
+        }
+
+
+        .main{
+            position: relative;
+            width: 40%;
+            left: 30%;
+            top: 5rem;
+        }
+
+        .font6{
+            position:relative;
+            z-indent:2;
+            top:2em;
+            font-size:30px;
+            font-weight:bolder;
+            text-align: center;
+        }
+        .font7{
+            position:relative;
+            z-indent:2;
+            top:4em;
+            font-size:20px;
+            font-weight:bold;
+            text-align: center;
+        }
+        .font8{
+            position:relative;
+            z-indent:2;
+            top:6em;
+            font-size:15px;
+            font-weight:100;
+            text-align: center;
+        }
+        @media only screen and (max-width: 500px){
+            .main{
+                width: 100%;
+                left:0;
+            }
+            .font6{
+                width:90%;
+                left: 5%;
+            }
+            .font7{
+                width:90%;
+                left: 5%;
+            }
+            .font8{
+                width:90%;
+                left: 5%;
+            }
+
+        }
+
+
+
+
+
+        .zhongjian{
+            position: relative;
+            width: 80%;
+            /*height:50rem;*/
+            left: 10%;
+            top:15rem;
+        }
+
+
+        div.tupian{
+            position: relative;
+            width: 100%;
+            top: 6rem;
+        }
+        .tou{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            text-align: center;
+            height: 50px;
+            color: white;
+            top:5rem;
+        }
+        @media only screen and (max-width: 500px){
+            .zhongjian{
+
+                display: none;
+            }
+            div.tupian{
+                display: none;
+            }
+            .tou{
+                display: none;
+            }
+
+        }
+
+
+        .search{
+            position: relative;
+            width:40%;
+            height: 10rem;
+            top:22rem;
+            left:30%;
+            right: 30%;
+            text-align: center;
+        }
+
+        .dibu{
+            position: relative;
+            width: 80%;
+            height:80rem;
+            left: 10%;
+            top:25rem;
+        }
+
+
+        div.tupian2{
+            position: relative;
+            width: 100%;
+            top: 0;
+        }
+        .font10{
+            position:relative;
+            z-indent:2;
+            top:-15em;
+            font-size:40px;
+            font-weight:100;
+            color:white;
+            left: 20%;
+        }
+        .font11{
+            position:relative;
+            z-indent:2;
+            width: 30rem;
+            top:-38em;
+            font-size:15px;
+            font-weight:100;
+            color: blue;
+            left: 20%;
+        }
+        @media only screen and (max-width: 500px){
+            .dibu{
+                width: 90%;
+                left: 5%;
+                top:25rem;
+                height: 50rem;
+            }
+            .font10{
+                top:0rem;
+                left:0;
+                color: black;
+                font-size: 35px;
+            }
+            .font11{
+                top:0rem;
+                left:0;
+                color: black;
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-brand">
+        <img src="image/logo.png" alt="" height="15px">
+    </div>
+    <div class="container" data-toggle="#caidan">
+        <div class="navbar-header">
+            <a class="btn btn-warning navbar-toggle" data-toggle="collapse" href="#caidan" >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" id="caidan">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#" class="md navbar-link "><b>MODEL S</b></a></li>
+                <li><a href="#" class="md navbar-link "><b>MODEL X</b></a></li>
+                <li><a href="#" class="md navbar-link "><b>MODEL 3</b></a></li>
+                <li><a href="#" class="md navbar-link "><b>超级充电站</b></a></li>
+                <li><a href="#" class="md navbar-link "><b>ENERGY</b></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="mc navbar-link "><span>资讯中心</span></a></li>
+                <li><a href="#" class="mc navbar-link "><span>问题解答</span></a></li>
+                <li><a href="#" class="mc navbar-link" ><span>如何充电</span></a></li>
+                <li><a href="#" class="mc navbar-link "><span>找到我们</span></a></li>
+                <li><a href="#" class="mc navbar-link" ><span>MY TESLA</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="header">
+    <img src="image/31.jpg" alt="" class="img-responsive" width="" height="630px">
+    <div class="font1">
+        <a style="color:white;">目的地充电</a>
+    </div>
+    <div class="font2">
+        <a style="color:white;" href="www.baidu.com">概览</a>
+    </div>
+    <div class="font3">
+        <a style="color:white;" href="www.baidu.com">在家中</a>
+    </div>
+    <div class="font4">
+        <a style="color:white;" href="www.baidu.com">超级充电站</a>
+    </div>
+    <div class="font5">
+        <a style="color:white;" href="www.baidu.com">目的地充电</a>
+    </div>
+    <div class="line1">
+        <hr width="1400em" size="2" align="center" color="white">
+    </div>
+    <div class="juxing1">
+        <input type="text" style="left:5em;top: 0.5em;" placeholder="查找充电站">
+    </div>
+</div>
+
+<div class="main">
+<div class="font6">
+    <p style="color:black;">泊车，插入电源，享受休憩时间</p>
+</div>
+<div class="font7">
+    <p style="color:black;">便利的充电设施：在酒店、餐厅和购物中心等地点补充电量</p>
+</div>
+<div class="font8">
+    <p style="color:black;">无论去哪里旅行，您都可以在我们持续
+        扩张的的大型充电网络中找到合适的充电地点，及时补充电量。充电站的选址通常位于餐厅
+        、购物中心、酒店、度假村等可以停留几小时或几天的场所。您只需在前往目的地后，将
+        Tesla 壁挂式充电连接器插入车辆的充电接口，即可开始享受休闲时光。</p>
+</div>
+</div>
+
+
+<div class="zhongjian">
+<div class="tou">
+    <p style="text-align: center;font-size: 40px;color: black">目的地充电站地图</p>
+</div>
+<div class="tupian">
+    <img src="image/32.jpg" alt="" class="img-responsive" width="100%" height="630px">
+</div>
+</div>
+<form role="form" class="search">
+    <div class="form-group">
+        <label for="name">搜索</label>
+        <input type="text" class="form-control" id="name" style="border-color:red;" placeholder="请输入地区">
+    </div>
+    <button type="submit" style="color: #7dbc3f" class="btn btn-default">搜索</button>
+</form>
+
+
+<div class="dibu">
+    <div class="tupian2">
+          <img src="image/33.jpg" class="img-responsive" width="100%" height="630px" alt="">
+        <div class="font10">
+            <p>诚征充电合作伙伴</p>
+
+        </div>
+        <div class="font11">
+            <p>加入 Tesla 充电网络可以吸引更多 Tesla 车主前往您的营业地点。
+                符合条件的商户可以合作目的地充电项目，并在 Tesla 官方充电
+                地图上获得展示。<br>
+                <br>
+                <br>
+
+                <a style="color: red" href="exit_1.html">联系我们</a>以获取更多信息。</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container" style="text-align: center;">
+        <p style="color:white;text-align: left; font-size: 30px;">目的地充电</p>
+        <button type="button" class="btn btn-link" style="background-color: red;"><p style="color: black">全新定制车</p></button>
+        <button type="button" class="btn btn-link" style="background-color: red;"><p style="color: black">立即试驾</p></button>
+    </div>
+</div>
+</body>
+</html>

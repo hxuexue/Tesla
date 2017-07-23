@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tesila超级充电站</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body{
+            background:white;
+            font-family: 宋体;
+        }
+        div.header{
+            position: relative;
+            overflow: hidden;
+            width: 60%;
+            height: 10rem;
+            left:20%;
+            margin-bottom:0;
+            /*padding-left:50px;*/
+            /*padding-right:50px;*/
+            padding-top:0;
+            background-color: #000;
+            opacity: 0.5;
+        }
+
+        div.main{
+            position: relative;
+            overflow: hidden;
+            width: 60%;
+            height: 45rem;
+            left:20%;
+        }
+
+        div.foot{
+            position: relative;
+            overflow: hidden;
+            top:5rem;
+            width: 60%;
+            left:20%;
+
+        }
+        @media only screen and (max-width: 500px){
+            div.header{
+                width: 80%;
+                left:10%;
+                height: 5rem;
+            }
+
+            div.main{
+                width: 80%;
+                left:10%;
+                height: 100rem;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <div class="main">
+    <p style="position:relative;z-indent:2;top: 3rem;text-align: left;
+          font-size: 30px;font-weight: 200;">
+        超级充电站/目的地充电站
+    </p>
+    <p style="position:relative;z-indent:2;top: 2rem;text-align: left;
+         font-size: 15px;font-weight: 100;">
+        感谢您关注超级充电站和目的地充电站。当前（Tesla）特斯拉正在建设电动
+        汽车充电网络，同时在主要道路沿线积极寻找适合建造超级充电站和目的地充
+        电站的场所。超级充电站一般设置在交通便利的地方，周边有24小时营业的便
+        利设施，场地安全且照明充足。特斯拉同诸多城市及热门出行目的地的酒店、
+        餐厅、商场和度假村等合作建立充电站，使特斯拉车主在外充电亦如在家里般
+        方便。连接好充电器后，您即可在"目的地"尽情购物、享受美食，而不必在充
+        电站旁等候。
+        <br>
+        <br>
+        如果您或您的朋友拥有适合条件的场所，而且有意向合作建立超级充电站/目的
+        地充电站，请填写下方的问卷表。如果场地条件符合要求，我们会与您联系。
+        <br>
+        <br>
+        感谢您的支持！
+        <br>
+        <br>
+        Thank you for your interest in Supercharging & Destination Charging.
+        Tesla is currently building out the charging network and is actively
+        seeking locations along major transit corridors where Superchargers
+        can be hosted. Supercharger sites should be easily accessible from the
+        highway, conveniently located near 24 hr amenities, and safe & well-lit.
+        For Destination Charging, Tesla partners with hotels, restaurants,
+        shopping centers and resorts to make charging when you arrive at your
+        destination as simple as charging at home. Pull up and plug into a Tesla
+        wall connector to charge Model S while you shop, dine, or even during
+        an overnight stay.
+        <br>
+        <br>
+        If you own a property that matches this profile, know someone who does, or are able to help in some way, then please fill the form below. If the proposed site is a good fit, we will reach out.
+        <br>
+        <br>
+        Thank you!
+    </p>
+    </div>
+
+<div class="foot">
+    <form name="form1" method="post" action="form_action.jsp" enctype="text/plain">
+        姓名 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text"/><br/><br/>
+        电话 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text"/><br/><br/>
+        电子邮箱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input  type="text"/><br/><br/>
+        联系人类型
+        <div id="myexample">
+            <ul class="nav navbar-nav">
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">请选择 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">请选择</a></li>
+                        <li><a href="#">政府部门</a></li>
+                        <li><a href="#">场地所有者</a></li>
+                        <li><a href="#">物业管理公司</a></li>
+                        <li><a href="#">安装工程承包商</a></li>
+                        <li><a href="#">其他</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+                <!--<a href="#">请选择</a>-->
+            <!--</ul>-->
+            <!--<ul class="dropdown-menu" role="menu">-->
+                <!--<li><a href="#">请选择</a></li>-->
+                <!--<li><a href="#">政府部门</a></li>-->
+                <!--<li><a href="#">场地所有者</a></li>-->
+                <!--<li><a href="#">物业管理公司</a></li>-->
+                <!--<li><a href="#">安装工程承包商</a></li>-->
+                <!--<li><a href="#">其他</a></li>-->
+            <!--</ul>-->
+        </div>
+        <br>
+        <br>
+        <br>
+        公司或机构名称 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text"/><br/><br/>
+        <br/>
+        预期安装地址<br/><br/><br/>
+        省份
+        <div id="myexample">
+        <ul class="nav navbar-nav">
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">请选择 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+            <li><a id="action-1" href="#">请选择</a></li>
+            <li><a href="#">北京</a></li>
+            <li><a href="#">上海</a></li>
+            <li><a href="#">江苏</a></li>
+            <li><a href="#">安徽</a></li>
+            <li><a href="#">浙江</a></li>
+            <li><a href="#">天津</a></li>
+            <li><a href="#">河北</a></li>
+            <li><a href="#">山西</a></li>
+            <li><a href="#">内蒙古</a></li>
+            <li><a href="#">辽宁</a></li>
+            <li><a href="#">吉林</a></li>
+            <li><a href="#">黑龙江</a></li>
+            <li><a href="#">福建</a></li>
+            <li><a href="#">江西</a></li>
+            <li><a href="#">山东</a></li>
+            <li><a href="#">河南</a></li>
+            <li><a href="#">湖北</a></li>
+            <li><a href="#">湖南</a></li>
+            <li><a href="#">广东</a></li>
+            <li><a href="#">广西</a></li>
+            <li><a href="#">海南</a></li>
+            <li><a href="#">重庆</a></li>
+            <li><a href="#">四川</a></li>
+            <li><a href="#">贵州</a></li>
+            <li><a href="#">云南</a></li>
+            <li><a href="#">西藏</a></li>
+            <li><a href="#">陕西</a></li>
+            <li><a href="#">甘肃</a></li>
+            <li><a href="#">青海</a></li>
+            <li><a href="#">宁夏</a></li>
+            <li><a href="#">新疆</a></li>
+        </ul>
+    </div>
+        <br>
+        <br>
+        <br>
+        市（区） &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text"/><br/><br/>
+        详细地址 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text"/><br/><br/>
+        其他信息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text" style="height: 5rem"/><br/><br/>
+        <input class="btn btn-default" type="submit" style="background-color: chartreuse" value="提交">
+    </form>
+</div>
+</body>
+<script>
+    $(function(){
+        // 默认显示
+        $(".dropdown-toggle").dropdown('toggle');
+    });
+</script>
+</html>
