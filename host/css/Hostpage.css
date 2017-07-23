@@ -1,0 +1,281 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+*{margin:0px; padding:0px;}
+#Layer1{
+    position: fixed;
+    display: block;
+    height: 1620px;
+    width:100%;
+    background: url("../data/bg.jpg") fixed center no-repeat;
+    background-size: cover;
+}
+.logo{
+
+    width:100%;
+    top: 15px;
+    position: absolute;
+    left: 100px;
+
+}
+.text{
+    display: inline-block;
+    color: white;
+    left: 40px;
+    font-size: medium;
+    font-weight: lighter;
+}
+.zixun{
+    font-size: small;
+    display: inline-flex;
+    position: absolute;
+    left: 700px;
+}
+
+#mid{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    text-align: center;
+    top:15%;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.video{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.threeBTN{
+    color: white;
+    display: block;
+}
+#bynow:hover{
+    border: 1px solid white;
+}
+#byzxc:hover{
+    border: 1px solid white;
+}
+#trydrive:hover{
+    border: 1px solid white;
+}
+#bynow{
+
+    font-weight: lighter;
+    color: white;
+    display: inline-block;
+    width: 173px;
+    height:36px;
+    background-color: RGB(89,96,99);
+    opacity:0.7;
+    border:none;
+}
+#byzxc{
+    font-weight: lighter;
+    color: white;
+    display: inline-block;
+    width: 173px;
+    height:36px;
+    background-color: RGB(89,96,99);
+    opacity:0.7;
+    border:none;
+}
+#trydrive{
+    font-weight: lighter;
+    color: white;
+    display: inline-block;
+    width: 173px;
+    height:36px;
+    background-color: RGB(89,96,99);
+    opacity:0.7;
+    border:none;
+}
+.copyright{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    text-align: center;
+    color: white;
+    font-family: "微软雅黑", Verdana, Sans-serif;
+    font-weight: lighter;
+}
+#china{
+    width: 20px;
+    height: 15px;
+}
+#pagebynow{
+    text-align: center;
+    width: 940px;
+    height: 500px;
+    font-size: xx-large;
+    background-image: url("../data/bg-bynow.png");
+    display: none;
+    position: absolute;
+    left:22%;
+    top:20%;
+}
+#cha{
+    position: absolute;
+    right:0;
+}
+.ms{
+    position: absolute;
+    top:15%;
+    left:10%;
+    width:60%;
+    height:60%;
+}
+.mx{
+    position: absolute;
+    top:15%;
+    left:30%;
+    width:60%;
+    height:60%;
+}
+#msbtn{
+    width: 120px;
+    height:40px;
+    position: absolute;
+    left:25%;
+    top:60%;
+    color: white;
+    font-weight: bold;
+    background: red;
+    border:none;
+}
+#mxbtn{
+    width: 120px;
+    height:40px;
+    position: absolute;
+    right:25%;
+    top:60%;
+    color: white;
+    font-weight: bold;
+    background: red;
+    border:none;
+}
+.mstxt{
+
+    position: absolute;
+    left: 22%;
+    top:70%;
+    color: gray;
+    font-size: small;
+    font-weight: lighter;
+}
+#bynow2{
+    position: absolute;
+    left: 28%;
+    top:70%;
+    color: red;
+    font-size: small;
+    font-weight: lighter;
+}
+.mxtxt{
+    position: absolute;
+    right: 22%;
+    top:70%;
+    color: gray;
+    font-size: small;
+    font-weight: lighter;
+}
+#bynow3{
+    position: absolute;
+    right: 28%;
+    top:70%;
+    color: red;
+    font-size: small;
+    font-weight: lighter;
+}
+.phone{
+    display: none;
+}
+@media only screen and (orientation: portrait ){
+    .pc{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    *{margin:0px; padding:0px;}
+    .part1{
+        display: block;
+    }
+    a{
+        !important;
+    }
+    .part1_img{
+        display: block;
+    }
+    .part2_img{
+        display: block;
+        top: 0px;
+    }
+    .part2_img{
+        display: block;
+         top: 0px;
+     }
+    .phone_title{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top:4%;
+
+    }
+    .phone_btn1{
+        position: relative;
+        top: -230px;
+        margin:15px;
+        width: 100%;
+    }
+    .phone_btn2{
+        position: relative;
+        top: -180px;
+        margin:15px;
+        width: 100%;
+    }
+    .phone_btn3{
+        position: relative;
+        top: -180px;
+        margin:15px;
+        width: 100%;
+    }
+    .button1:hover{
+        background: rgba(0, 0, 0, 0.45);
+        border: 1px solid white;
+    }
+    .copy{
+        position: absolute;
+
+    }
+    .button1{
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgba(178, 178, 178, 0.15);
+        color: white;
+        border:0;
+        height: 40px;
+        width: 90%;
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+}

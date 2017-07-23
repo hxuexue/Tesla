@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.layout-header {
+    min-height: 50px;
+    background: #98002b;
+}
+
+.layout-footer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #000;
+    bottom: 0px;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 15px;
+    margin-top: 17px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 15px;
+    margin-top: 17px;
+    color: #fff;
+    font-size: 8px;
+}
+
+.footer-left a{
+    color:#fff;
+}
+
+.navbar{
+    border-bottom:0;
+}
+.main-navbar .navbar-toggle .icon-bar {
+    background-color: #fff;
+}

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>特斯拉登录界面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+        }
+        .pc{
+            display: block;
+        }
+        .phone{
+            display: none;
+        }
+        .logo{
+
+            width:100%;
+            top: 15px;
+            position: absolute;
+            left: 100px;
+
+        }
+        .text{
+            display: inline-block;
+            color: white;
+            left: 40px;
+            font-size: medium;
+            font-weight: lighter;
+        }
+        .zixun{
+            font-size: small;
+            display: inline-flex;
+            position: absolute;
+            left: 700px;
+        }
+        #Layer2{
+            position: fixed;
+            display: block;
+            height: 1620px;
+            width:100%;
+            background: url("data/bg-login.jpg") fixed center no-repeat;
+            background-size: cover;
+        }
+        .text{
+            top: 20px;
+            display: inline-block;
+            color: white;
+            font-family:"微软雅黑",Verdana,Sans-serif;
+            font-size: medium;
+            font-weight: lighter;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .copyright{
+            position:fixed;
+            bottom:0px;
+            left:0px;
+            width:100%;
+            text-align: center;
+            color: white;
+            font-family: "微软雅黑", Verdana, Sans-serif;
+            font-weight: lighter;
+        }
+        #china{
+            width: 20px;
+            height: 15px;
+        }
+
+        .denglu{
+
+            font-size: xx-large;
+            font-weight: normal;
+        }
+        .user{
+            height: 30px;
+            width:80%;
+        }
+        .pw{
+            height:30px;
+            width:80%;
+        }
+        .chongzhi{
+            position: relative;
+            text-align: left;
+            left: -30%;
+            font-size: xx-small;
+            color: red;
+        }
+        .loginbtn{
+            text-align: center;
+            color: white;
+            background: red;
+            border:none;
+            text-decoration: none;
+            /*position: absolute;*/
+            bottom: 10%;
+            height:30px;
+            width:80%;
+        }
+        .createuser{
+
+            background: white;
+            border:none;
+            text-decoration: none;
+            position: absolute;
+            bottom: 0;
+            height:35px;
+            width:100%;
+        }
+        .create{
+            text-align: center;
+            color: red;
+            font-size: xx-small;
+
+            bottom: 0;
+        }
+        .kong{
+            height: 10px;
+
+        }
+        @media  only screen and (orientation:landscape ) {
+            .logindiv{
+                position: absolute;
+                width: 25%;
+                right: 15%;
+                top: 25%;
+            }
+            .login{
+                position: relative;text-align: center; width:100%;
+                z-index: 0;
+                height:330px;
+                background-color: RGB(237,237,237);
+            }
+
+        }
+
+        @media  only screen and (orientation: portrait) {
+            .phone{
+                display: block;
+                position: fixed;
+                display: block;
+                height: 1620px;
+                width:100%;
+                background: url("data/bg-login.jpg") fixed center no-repeat;
+                background-size: cover;
+                z-index: 0;
+            }
+
+            .pc{
+                display: none;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                text-underline: none;
+            }
+            .nav{
+                z-index: 1;
+            }
+            .navbar{
+                border: 0;
+            }
+            .navbar-button {
+                border-color: #000000 !important;
+            }
+            .button-icon {
+                background-color: #fff1fd !important;
+                border:none;
+            }
+            .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+                background-color: rgba(0,0,0,0);
+            }
+            .navbar-default .navbar-nav>li>a {
+
+                color: rgb(255, 255, 255) !important;
+            }
+            .logindiv{
+                position: absolute; width: 80%;padding: 0;margin: 10%;display: block;
+            }
+            .login{
+                position: relative;text-align: center; width:100%;
+                z-index: 0;
+                height:330px;
+                background-color: RGB(237,237,237);
+                position: absolute;
+                text-align: center;
+
+                top: 50px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<div class="pc">
+    <div id="Layer2">
+
+    </div>
+    <div class="logo">
+        <a href="Tesla_HostPage.html"><img src="data/logo.png" alt="" height="15"></a>
+        <div class="text">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" ><span><b>MODEL&nbsp;S</b></span></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href=""><span><b>MODEL&nbsp;X</b></span></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href=""><span><b>MODEL 3</b></span></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href=""><span>超级充电站</span></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href=""><span><b>ENERGY</b></span></a>
+        </div>
+        <div class="zixun">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=""><span>资讯中心</span></a>
+            &nbsp;&nbsp;
+            <a href=""><span>问题解答</span></a>
+            &nbsp;&nbsp;
+            <a href=""><span>如何充电</span></a>
+            &nbsp;&nbsp;
+            <a href=""><span>找到我们</span></a>
+            &nbsp;&nbsp;
+            <a href="./Tesla_Login.html"><span>MY&nbsp;TESLA</span></a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        Tesla © 2017&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<img src="data/icp.png" alt="" id="icp">&nbsp;&nbsp;京公网安备&nbsp;&nbsp;
+        11011502002791号&nbsp;&nbsp;·&nbsp;&nbsp;隐私&法律&nbsp;&nbsp;·&nbsp;&nbsp;联系人信息
+        &nbsp;&nbsp;·&nbsp;&nbsp;工作机会&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<img src="data/zhongguo.png" alt="" id="china">
+    </div>
+
+</div>
+
+<div class="phone">
+    <nav class="navbar navbar-default"  style="position:relative;background: rgba(0,0,0,0.82); font-weight: bold;font-family: 微软雅黑 " >
+        <div class=" container-fluid ">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" >
+                <button type="button" class="navbar-toggle collapsed navbar-button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar button-icon"></span>
+                    <span class="icon-bar button-icon"></span>
+                    <span class="icon-bar button-icon"></span>
+                </button>
+                <a class="navbar-brand font-color"  href="Tesla_HostPage.html"><img src="data/logo.png" alt="" height="15"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                <ul class="nav navbar-nav font-color"  >
+                    <li>
+                        <a href="#">MODEL&nbsp;S</a>
+                    </li>
+                    <li>
+                        <a href="#">MODEL&nbsp;X</a>
+                    </li>
+                    <li>
+                        <a href="#">MODEL 3</a>
+                    </li>
+                    <li>
+                        <a href="#">超级充电站</a>
+                    </li>
+                    <li>
+                        <a href="#">ENERGY</a>
+                    </li>
+                    <li>
+                        <a href="#">资讯中心</a>
+                    </li>
+                    <li>
+                        <a href="#">问题解答</a>
+                    </li>
+                    <li>
+                        <a href="#">找到我们</a>
+                    </li>
+                    <li>
+                        <a href="./Tesla_Login.html">MY TESLA</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</div>
+<div  class="logindiv";>
+    <div class="login" >
+        <br><span class="denglu">登录</span>
+        <hr>
+        <div class="Input">
+            <input type="text" class="user" placeholder="电子邮件地址" name="UserMail" id="umail">
+            <div class="kong">
+
+            </div>
+            <input type="password" class="pw" placeholder="密码" name="UserPw" id="upw">
+        </div>
+        <br>
+        <a href=""><span class="chongzhi">重置您的密码</span></a>
+        <br><br>
+        <button class="loginbtn" style="cursor: pointer" id="login">登录</button>
+        <div class="createuser">
+            <a href="regist.html"><span class="create">创建账户</span></a>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+    $('.navbar-toggle').click(function () {
+       if($(".logindiv").css("display")=="none"){
+            $('.logindiv').css("display","block");
+        }
+
+       else{
+           $('.logindiv').css("display","none");
+       }
+    });
+    document.getElementById("umail").focus();
+    $('#umail').blur(usermailCheck);
+    $('#upw').blur(userpwCheck);
+    $("#login").click(function () {
+//        alert('已点击');
+        var umail= $.trim($("#umail").val());
+        var upw= $.trim($("#upw").val());
+        console.log(umail);
+        console.log(upw);
+
+        $.ajax({
+            type: "post",
+            url: "../php/test.php",
+            data: {UserMail: umail, UserPw: upw},
+            // url:"http://localhost:3306/user_login.php",
+            success: function (data) {
+                console.log(data);
+                console.log(data[0]);
+                if (data[8]=="1") {//登录成功
+                    window.location.href = "Tesla_HostPage.html";
+                    // $('#uphone').show().text('用户名或密码不正确');
+
+                } else {//登录成功
+//                     sessionStorage.UserMail=data.UserMail;
+//                     sessionStorage.Userpw=data.UserPw;
+                    // history.go(-1);
+                    // history.go(vip.html);
+                    alert('用户名或密码错误');
+                }
+            }
+        });
+    })
+    //验证用户名
+    function usermailCheck(){
+        var umail= $.trim($('#umail').val());
+        return true;
+    }
+    //验证密码
+    function userpwCheck(){
+        var upw= $.trim($('#upw').val());
+        return true;
+    }
+</script>
+</body>
+</html>
