@@ -1,0 +1,139 @@
+@media screen and (min-width: 960px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    #page {
+        background: rgba(252, 255, 242, 0);
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .content {
+        max-width: 1440px;
+        margin: auto;
+        position: relative;
+        width: 100%;
+        height: 3000px;
+    }
+
+    #pageBody {
+        position: relative;
+        width: 100%;
+        top: 4rem;
+        z-index: 0;
+    }
+
+    .img-stlye {
+        height: 33px;
+        top: 14%;
+        width: 33%;
+        margin-left: 33%;
+        margin-right: 25%;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .video-style {
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+    #middlebody {
+        width: 175px;
+        height: 500px;
+        margin-top: 10px;
+        background: red;
+    }
+
+    .title-top {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .title-bottom {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #Mainbody1 {
+        height: 55px;
+        margin-top: 50px;
+    }
+
+    #Mainbody2 {
+        height: 500px;
+        margin-top: 10px;
+        margin-right: 400px;
+        margin-left: 400px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .section-description {
+        text-align: center;
+        margin: 1.875rem auto;
+    }
+
+    .btn-group {
+        margin: 8px 22%;
+        font-weight: normal;
+        width: 100%;
+    }
+
+    .btn-group .btn-primary {
+        margin-right: 5px;
+        background: #c00;
+        margin-right: 0.3125rem;
+        text-decoration: none;
+        color: #fff;
+        padding: 12px 50px;
+        font-size: 13px;
+    }
+
+    .section-description {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+        font-family: "微软雅黑";
+    }
+
+    .btn-group .btn-secondary {
+        background: #333;
+        text-decoration: none;
+        color: #fff;
+        padding: 12px 70px;
+        font-size: 13px;
+    }
+
+    .copyright {
+        position: absolute;
+        text-align: center;
+        color: black;
+        font-family: "微软雅黑", Verdana, Sans-serif;
+        font-weight: lighter;
+        bottom: 200px;
+        vertical-align: middle;
+        left: 300px;
+    }
+
+    .gundong {
+        position: relative;
+        width: 1440px;
+        height: 680px;
+        margin-top: 80px
+    }
+}

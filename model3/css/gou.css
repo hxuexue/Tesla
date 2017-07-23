@@ -1,0 +1,343 @@
+body{
+    overflow-x: hidden;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+
+.infor{
+    height: 1300px;
+    width: 1440px;
+}
+.navigation{
+    height: 49px;
+    width: 1440px;
+    position: relative;
+    top:20px;
+    /*left: -10px;*/
+}
+.zixun{
+    left: 80px;
+    bottom: 20px;
+    width: 80px;
+    height: 20px;
+    position: fixed;
+}
+.bt5{
+    width: 190px;
+    height: 40px;
+    background: red;
+    color: white;
+    border-color: red;
+
+}
+.ts{
+    position: relative;
+    left: 198px;
+}
+.md{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 200px;
+    /*top: -18px;*/
+    font-size: medium;
+    margin-left: 10px;
+}
+/*.mdx{*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+    /*position: relative;*/
+    /*left: 320px;*/
+    /*top: -18px;*/
+    /*font-size: 16px;*/
+/*}*/
+/*.md03{*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+    /*position: relative;*/
+    /*left: 340px;*/
+    /*top: -18px;*/
+    /*font-size: 14px;*/
+/*}*/
+/*.station{*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+    /*position: relative;*/
+    /*left: 360px;*/
+    /*top: -18px;*/
+    /*font-size: 14px;*/
+/*}*/
+/*.energy{*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+    /*position: relative;*/
+    /*left: 380px;*/
+    /*top: -18px;*/
+    /*font-size: 14px;*/
+/*}*/
+.help{
+    text-decoration: none;
+    color: darkgrey;
+    position: relative;
+    left: 500px;
+    /*top: -18px;*/
+    font-size: 14px;
+}
+/*.question{*/
+    /*text-decoration: none;*/
+    /*color: darkgrey;*/
+    /*position: relative;*/
+    /*left: 555px;*/
+    /*top: -18px;*/
+    /*font-size: 14px;*/
+/*}*/
+/*.how{*/
+    /*text-decoration: none;*/
+    /*color: darkgrey;*/
+    /*position: relative;*/
+    /*left: 570px;*/
+    /*top: -18px;*/
+    /*font-size: 14px;*/
+/*}*/
+/*.find{*/
+    /*text-decoration: none;*/
+    /*color: darkgray;*/
+    /*position: relative;*/
+    /*left:585px;*/
+    /*top: -18px;*/
+    /*font-size: 14px;*/
+/*}*/
+.china{
+    position: relative;
+    top:5px;
+}
+.te{
+    text-decoration: none;
+    color:white;
+    position: relative;
+    left: 500px;
+    /*top: -18px;*/
+    font-size: 14px;
+    margin-left: 5px;
+}
+.jieshao{
+    height: 430px;
+}
+.im1{
+    position: relative;
+    left: 180px;
+}
+.infor{
+    position: relative;
+    left: 190px;
+    top: 30px;
+}
+.ip1{
+    height: 30px;
+    width: 600px;
+    position: relative;
+    top:10px;
+}
+.ip2{
+    height: 30px;
+    width: 280px;
+    position: relative;
+    top:10px;
+}
+.ip3{
+    height: 30px;
+    width: 280px;
+    position: relative;
+    top:10px;
+    left: 30px;
+}
+.d1{
+    position: relative;
+    top: 10px;
+}
+.d2{
+    position: relative;
+    top: 30px;
+}
+.d3{
+    position: relative;
+    top: 20px;
+}
+.d4{
+    position: relative;
+    top: 35px;
+}
+.d5{
+    position: relative;
+    top: 40px;
+}
+.d6{
+    position: relative;
+    top: 80px;
+}
+.d7{
+    position: relative;
+    top: 150px;
+    font-size: 12px;
+    font-family: 华文仿宋;
+    color: grey;
+}
+.d8{
+    position: relative;
+    top: 350px;
+}
+.d9{
+    position: relative;
+    top: 50px;
+}
+.a1{
+    color: indianred;
+    font-size: 10px;
+    position: relative;
+    left: 558px;
+    top: 10px;
+}
+.a2{
+    font-size: 10px;
+    color: grey;
+}
+.a3{
+    font-size: 10px;
+    color: grey;
+    position: relative;
+    top: 10px;
+}
+.a4{
+    font-size: 10px;
+    color: grey;
+    position: relative;
+    top: 10px;
+    left: 290px;
+}
+.a5{
+    font-size: 10px;
+    color: grey;
+    position: relative;
+    top: 10px;
+    left: 265px;
+}
+.a6{
+    font-size: 10px;
+    color: grey;
+    position: relative;
+
+    left: 200px;
+}
+.a7{
+    font-size: 10px;
+    color: red;
+    position: relative;
+
+    left: 200px;
+}
+.a8{
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
+.hr2{
+    text-decoration: none;
+    color: red;
+    position: relative;
+    top: 100px;
+    left: 400px;
+
+}
+.xiala{
+    position: relative;
+    top: 100px;
+}
+.s1{
+    width: 230px;
+    height: 40px;
+}
+.h1{
+    position: relative;
+    top: 50px;
+    width: 1000px;
+    left: -270px;
+    opacity: 0.5;
+}
+.h2{
+    position: relative;
+    top: 50px;
+    width: 1000px;
+    left: -280px;
+    opacity: 0.5;
+}
+.way{
+    position: relative;
+    top: 210px;
+}
+.bt{
+    position: relative;
+    top: 30px;
+}
+.mai{
+    font-family: "微软雅黑", bold;
+}
+.bt1{
+    width: 200px;
+    height: 70px;
+    background: white;
+    border: 1px solid grey;
+    font-size: 16px;
+}
+.bt2{
+    width: 200px;
+    height: 70px;
+    background: white;
+    border: 1px solid grey;
+    font-size: 16px;
+}
+.hr1{
+    border-color: grey;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+
+}
+.bt3{
+    width: 200px;
+    height: 70px;
+    background: white;
+    border: 1px solid grey;
+    font-size: 16px;
+}
+.bt33{
+    width: 200px;
+    height: 70px;
+    background: white;
+    border: 1px solid grey;
+    font-size: 16px;
+    position: relative;
+    top:8px;
+}
+.ali{
+    position: relative;
+    top:5px;
+}
+.bt4{
+    width: 200px;
+    height: 50px;
+    background: red;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: 100px;
+    left: 400px;
+    border: 0;
+}
+.dibu{
+    position: relative;
+    left: 400px;
+}
