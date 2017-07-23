@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>车辆订购</title>
+    <style>
+
+        header,section{
+            position: relative;
+            left: 100px;
+        }
+        .top{
+            height: 50px;
+            width: 1440px;
+        }
+        .infor{
+            display: block;
+            height: 1300px;
+            width: 1440px;
+        }
+        .navigation{
+            height: 49px;
+            width: 1440px;
+            background: black;
+        }
+        .zixun{
+            left: 80px;
+            bottom: 20px;
+            width: 80px;
+            height: 20px;
+            position: fixed;
+        }
+        .bt5{
+            width: 190px;
+            height: 40px;
+            background: red;
+            color: white;
+            border-color: red;
+
+        }
+        .ts{
+            position: relative;
+            left: 198px;
+        }
+        .mds{
+            text-decoration: none;
+            color: white;
+            position: relative;
+            left: 300px;
+            top: -18px;
+            font-size: 14px;
+            font-family: "微软雅黑", Verdana, Sans-serif;
+        }
+        .mdx{
+            text-decoration: none;
+            color: white;
+            position: relative;
+            left: 320px;
+            top: -18px;
+            font-size: 14px;
+            font-family: "微软雅黑", Verdana, Sans-serif;
+        }
+        .md03{
+            text-decoration: none;
+            color: white;
+            position: relative;
+            left: 340px;
+            top: -18px;
+            font-size: 14px;
+            font-family: "微软雅黑", Verdana, Sans-serif;
+        }
+        .station{
+            text-decoration: none;
+            color: white;
+            position: relative;
+            left: 360px;
+            top: -18px;
+            font-size: 14px;
+            font-family: "微软雅黑", Verdana, Sans-serif;
+        }
+        .energy{
+            text-decoration: none;
+            color: white;
+            position: relative;
+            left: 380px;
+            top: -18px;
+            font-size: 14px;
+            font-family: "微软雅黑", Verdana, Sans-serif;
+        }
+        .help{
+            text-decoration: none;
+            color: darkgrey;
+            position: relative;
+            left: 540px;
+            top: -18px;
+            font-size: 14px;
+        }
+        .question{
+            text-decoration: none;
+            color: darkgrey;
+            position: relative;
+            left: 555px;
+            top: -18px;
+            font-size: 14px;
+        }
+        .how{
+            text-decoration: none;
+            color: darkgrey;
+            position: relative;
+            left: 570px;
+            top: -18px;
+            font-size: 14px;
+        }
+        .find{
+            text-decoration: none;
+            color: darkgray;
+            position: relative;
+            left:585px;
+            top: -18px;
+            font-size: 14px;
+        }
+        .te{
+            text-decoration: none;
+            color:white;
+            position: relative;
+            left: 600px;
+            top: -18px;
+            font-size: 14px;
+        }
+        .jieshao{
+            height: 430px;
+        }
+        .im1{
+            position: relative;
+            left: 180px;
+        }
+        .infor{
+            position: relative;
+            left: 190px;
+            top: 30px;
+        }
+        .ip1{
+            height: 30px;
+            width: 600px;
+            position: relative;
+            top:10px;
+        }
+        .ip2{
+            height: 30px;
+            width: 280px;
+            position: relative;
+            top:10px;
+        }
+        .ip3{
+            height: 30px;
+            width: 280px;
+            position: relative;
+            top:10px;
+            left: 30px;
+        }
+        .d1{
+            position: relative;
+            top: 10px;
+        }
+        .d2{
+            position: relative;
+            top: 30px;
+        }
+        .d3{
+            position: relative;
+            top: 20px;
+        }
+        .d4{
+            position: relative;
+            top: 35px;
+        }
+        .d5{
+            position: relative;
+            top: 40px;
+        }
+        .d6{
+            position: relative;
+            top: 80px;
+        }
+        .d7{
+            position: relative;
+            top: 140px;
+            font-size: 12px;
+            color: grey;
+        }
+        .d8{
+            position: relative;
+            top: 350px;
+        }
+        .d9{
+            position: relative;
+            top: 50px;
+        }
+        .a1{
+            color: indianred;
+            font-size: 10px;
+            position: relative;
+            left: 558px;
+            top: 10px;
+        }
+        .a2{
+            font-size: 10px;
+            color: grey;
+        }
+        .a3{
+            font-size: 10px;
+            color: grey;
+            position: relative;
+            top: 10px;
+        }
+        .a4{
+            font-size: 10px;
+            color: grey;
+            position: relative;
+            top: 10px;
+            left: 290px;
+        }
+        .a5{
+            font-size: 10px;
+            color: grey;
+            position: relative;
+            top: 10px;
+            left: 265px;
+        }
+        .a6{
+            font-size: 10px;
+            color: grey;
+            position: relative;
+
+            left: 200px;
+        }
+        .a7{
+            font-size: 10px;
+            color: red;
+            position: relative;
+
+            left: 200px;
+        }
+        .a8{
+            position: relative;
+            top: 100px;
+            left: 400px;
+        }
+        .hr2{
+            text-decoration: none;
+            color: red;
+            position: relative;
+            top: 100px;
+            left: 400px;
+
+        }
+        .xiala{
+            position: relative;
+            top: 100px;
+        }
+        .s1{
+            width: 230px;
+            height: 40px;
+            padding: 0 5%;
+        }
+        .h1{
+            position: relative;
+            top: 50px;
+            width: 1000px;
+            left: -270px;
+            opacity: 0.5;
+        }
+        .h2{
+            position: relative;
+            top: 50px;
+            width: 1000px;
+            left: -280px;
+            opacity: 0.5;
+        }
+        .way{
+            position: relative;
+            top: 250px;
+        }
+        .bt{
+            position: relative;
+            top: 30px;
+        }
+        .bt1{
+            width: 200px;
+            height: 50px;
+            border-color: white;
+        }
+        .bt2{
+            width: 200px;
+            height: 50px;
+            border-color: white;
+        }
+        .hr1{
+            border-color: grey;
+            width: 200px;
+            height: 40px;
+            text-decoration: none;
+            color: black;
+
+        }
+        .bt3{
+            width: 200px;
+            height: 50px;
+            border-color: white;
+        }
+        .bt4{
+            width: 200px;
+            height: 50px;
+            background: red;
+            color: white;
+            position: relative;
+            top: 100px;
+            left: 400px;
+
+        }
+         .dibu{
+             position: relative;
+             left: 500px;
+         }
+        .im2{
+            position: relative;
+            left: 5px;
+            width: 20px;
+            height: 15px;
+            top: 3px;
+        }
+        .s1 option{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+<div class="top">
+    <div class="navigation">
+        <a href="#"><img class="ts" src="../img2/tesila_02.png"></a>
+        <a href="#" class="mds">MODEL S</a>
+        <a href="#" class="mdx">MODEL X</a>
+        <a href="#" class="md03">MODEL 3</a>
+        <a href="#" class="station">超级充电站</a>
+        <a href="#" class="energy">ENERGY</a>
+        <a href="#" class="help">资讯中心</a>
+        <a href="#" class="question">问题解答</a>
+        <a href="#" class="how">如何充电</a>
+        <a href="#" class="find">找到我们</a>
+        <a href="#" class="te">MY TESLA</a>
+    </div>
+</div>
+</header>
+<section>
+    <div class="jieshao">
+        <img class="im1" src="../img2/buy1.png">
+    </div>
+    <div class="infor">
+        <div><a class="a2">中文姓名</a></div>
+        <div><input  class="ip1" type="text" ></div>
+        <div><a class="a1">必填字段</a></div>
+        <div><a class="a3">姓氏</a><a class="a4">名字</a></div>
+        <div class="d1"><input class="ip2" type="text"><input class="ip3" type="text"></div>
+        <div class="d3"><a class="a3">电子邮件</a><a class="a5">确认电子邮件</a></div>
+        <div class="d2"><input class="ip2" type="text"><input class="ip3" type="text"></div>
+        <div class="d4"><a class="a3">电话</a></div>
+        <div class="d5"><input class="ip2" type="text"></div>
+        <div class="d6"><a class="a3">期望交车时间</a></div>
+        <div class="xiala">
+            <select name="select" class="s1">
+                <option  value="a" >尽早交付</option>
+                <option value="b">8月下旬</option>
+                <option value="c">9月</option>
+                <option value="d">10月</option>
+            </select>
+            <a class="a2">交付至 中国</a><img class="im2" src="../img2/guoqi.png"><a class="a6">希望在其他国家提车</a>
+            <a href="#" class="a7">切换至当地网站</a>
+        </div>
+        <div class="d7">
+            <a>*以上时间为您选择的期望特斯拉交付车辆的时间，不构成特斯拉对交付车辆时间的保证和承诺，特斯拉交付车辆的时间为您按照
+                《汽车购买协议》约定接收您所购车辆之日。</a>
+            <hr class="h1">
+        </div>
+        <div class="way">
+            <div><a>您计划用什么方式购买？</a></div>
+            <div class="bt"><button class="bt1" >银行贷款</button>
+                <button class="bt2" >现金</button>
+                <hr class="h2">
+            </div>
+        </div>
+        <div class="d8">
+            <div><a><h3>保存车辆的设计方案是免费的</h3><br>
+                提交订单后您需要支付定金 ¥ 100,000。车辆到港前，
+                您还需支付第二笔款项 ¥ 250,000 作为海关清关费用。</a></div>
+            <div class="d9">
+            <button class="bt3">在线支付</button>
+                <button class="bt3">电汇/店内付款>></button>
+                <button class="bt3">银联pos通</button>
+                <div>
+                    <a class="a8">提交订单即表明您已同意<a href="#" class="hr2">MEDEL X订购协议</a> </a>
+                    <button class="bt4">提交订单</button></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<footer>
+
+    <div class="dibu"><img src="../img2/dibu_03.png"></div>
+</footer>
+<div class="zixun"><input class="bt5" type="button" value="有疑问？在线资讯"></div>
+</body>
+</html>
+<script>
+    $(".bt1").click(function () {
+        $(".bt1").css("border-color","blue");
+
+    })
+    $(".bt2").click(function () {
+        $(".bt2").css("border-color","blue");
+
+    })
+    $(".bt3").click(function () {
+        $(".bt3").css("border-color","blue");
+
+    })
+</script>

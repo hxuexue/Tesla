@@ -1,0 +1,714 @@
+.navbar-header{
+    background: black;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background: black;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar-brand{
+    position: relative;
+    left: 6rem;
+}
+.navbar-left{
+    position: relative;
+
+}
+.md{
+    z-index: 101;
+}
+ul{
+    list-style: none;
+}
+ul>li>a>b{
+    color: white;
+}
+ul>li>a>b:hover{
+    color: grey;
+}
+ul>li>a>span{
+    color: white;
+}
+ul>li>a>span:hover{
+    color: grey;
+}
+.nav1{
+    width:100%;
+    /*height: 500px;*/
+    margin: 0 auto;
+    line-height: 4rem;
+    /*background: pink;*/
+    /*background: url("../img/background.jpg") no-repeat;*/
+}
+#ad5{
+    z-index: 101;
+}
+.img1{
+    width: 100%;
+    top:50px;
+    position: relative;
+    border-top:0 ;
+
+}
+.ig{
+    position: relative;
+    left: 5rem;
+}
+
+.clearfix:active{
+    content: "";
+    display: table;
+    clear: both;
+}
+.clearfix b{
+    position: absolute;
+    left: 9%;
+    top:60px;
+    font-size: 30px;
+    font-family: 华文仿宋;
+    color: black;
+}
+nav1>ul{
+    display: inline-block;
+}
+/*.nav1>ul>li{*/
+    /*float: left;*/
+/*}*/
+.nav1>ul>li>a{
+    display: block;
+    color: black;
+
+}
+.nav1>ul>li>a:hover{
+    /*鼠标悬停 变白色*/
+    color: gray;
+}
+
+.nav1>ul:first-child>li a{
+    /*font-size: 1.7rem;*/
+
+}
+/*最后一个ul向右浮动*/
+.nav1>ul:last-child>li{
+    /*position: absolute;*/
+    /*font-size: 10px;*/
+    /*font-family: 华文仿宋;*/
+    /*top:60px;*/
+    /*right: 20%;*/
+    display: inline-block;
+    margin-left:2rem;
+}
+.uu1{
+    font-size: 15px;
+    color: black;
+    font-family: 华文仿宋;
+    position: absolute;
+    top:60px;
+    right:15%;
+}
+.uu2{
+    font-size: 15px;
+    color: black;
+    font-family: 华文仿宋;
+    position: absolute;
+    top:60px;
+    right:20%;
+}
+.uu3{
+    font-size: 15px;
+    color: black;
+    font-family: 华文仿宋;
+    position: absolute;
+    top:60px;
+    right:25%;
+}
+.uu4{
+    font-size: 15px;
+    color: black;
+    font-family: 华文仿宋;
+    position: absolute;
+    top:60px;
+    right:30%;
+}
+.in1{
+    position: relative;
+    top: 30px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    height: 47px;
+    width: 200px;
+
+}
+.in2{
+     position: relative;
+     top: 30px;
+     background-color: black;
+     color: white;
+     font-size: 18px;
+     height: 47px;
+     width: 200px;
+ }
+.in3{
+    z-index: 101;
+    position: relative;
+    top: 0em;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 47px;
+    width: 200px;
+}
+.in4{
+    z-index: 101;
+    position: relative;
+    top: 0em;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 47px;
+    width: 200px;
+}
+.in5{
+    position: relative;
+    top: -14rem;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    height: 47px;
+    width: 200px;
+
+}
+.in6{
+    position: relative;
+    top: -14rem;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    height: 47px;
+    width: 200px;
+}
+.hr1{
+    text-decoration: none;
+    color: white;
+}
+.quanzidong{
+    position: relative;
+    top: -20rem;
+}
+.shipin{
+    z-index: 101;
+    position: relative;
+    top: -18rem;
+}
+.xiehou{
+    position: relative;
+    top: 9rem;
+}
+.wenzi1{
+    position: relative;
+    top: -18rem;
+    color: gray;
+}
+.wenzi2{
+    position: relative;
+    top: 35rem;
+    color: gray;
+}
+.md2{
+     width: 100%;
+     position: relative;
+     top: 30rem;
+
+}
+.sheji{
+    position: relative;
+    top: 30em;
+}
+.dinggou2{
+    position: relative;
+    top: -13em;
+ }
+.yincang1{
+    position: relative;
+    top: 35em;
+}
+.uu1:hover{
+    color: grey;
+}
+.uu2:hover{
+    color: grey;
+}
+.uu3:hover{
+    color: grey;
+}
+.uu4:hover{
+    color: grey;
+}
+.yincang3{
+    position: relative;
+    top: 35em;
+    left: 40rem;
+}
+.che1{
+    position: relative;
+    top: 39em;
+    left: 26rem;
+}
+.md4{
+    position: relative;
+    top: -7em;
+    left: 36rem;
+}
+.wenzi3{
+    position: relative;
+    left: 26rem;
+    top: 40rem;
+}
+.wenzi31{
+    color: grey;
+}
+.wenzi32{
+    color: gray;
+    position: relative;
+    left: 30rem;
+    top: -9rem;
+}
+.hh1{
+    color: grey;
+
+}
+.hh5{
+    color: black;
+}
+.hh2{
+    color: black;
+}
+.ying{
+    position: relative;
+    top: 38rem;
+    width: 105%;
+}
+.ying1{
+    position: relative;
+    top: 39rem;
+    width: 100%;
+    right: 1rem;
+}
+.ying2{
+    position: relative;
+    top: 39rem;
+    width: 100%;
+    left: 1rem;
+}
+.yincang3{
+    position: relative;
+    left: 26rem;
+}
+.l1{
+    position: relative;
+    top:55rem;
+}
+.r1{
+    position: relative;
+    top:-12rem;
+}
+.r2{
+    position: relative;
+    top:-12rem;
+}
+.l2{
+    top: -5rem;
+}
+.wenzi4{
+    position: relative;
+    top: 20rem;
+}
+.hh3{
+    position: relative;
+
+    color: grey;
+}
+#ad5{
+    position: relative;
+    top: 30rem;
+
+}
+.im1{
+    width: 100%;
+}
+.im2{
+    width: 100%;
+}
+.im3{
+    width: 100%;
+}
+.im4{
+    width: 100%;
+}
+.im5{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 30rem;
+    top: 35rem;
+}
+.wenzi5{
+    position: relative;
+    top:40rem;
+}
+.hh5{
+    text-align: center;
+    color: grey;
+}
+.gg{
+    position: relative;
+    top: 40rem;
+}
+.g1{
+    position: relative;
+    top: 45rem;
+}
+.g2{
+    position: relative;
+    top: -38rem;
+}
+.police{
+    position: relative;
+    left: 49rem;
+    bottom: -20px;
+}
+.t1{
+    position: relative;
+    color: black;
+
+}
+.guoqi{
+      height: 15px;
+      width: 20px;
+    position: relative;
+    left: 88rem;
+    bottom: 17px;
+}
+.china{
+    position: relative;
+    left: 22rem;
+    bottom: 33px;
+    color: white;
+}
+.zixun{
+    display: block;
+    left: 80px;
+    bottom: 20px;
+    width: 80px;
+    height: 20px;
+    position: fixed;
+}
+.bt3{
+    width: 190px;
+    height: 40px;
+    background: red;
+    color: white;
+    border-color: red;
+
+}
+.dibu1{
+    position: relative;
+    display: block;
+    color: white;
+    /*width: 700px;*/
+    left: 0rem;
+
+}
+.dibu{
+    position: relative;
+    left: 50px;
+    top: 150px;
+}
+.dd2{
+    height: 30px;
+
+}
+.dibu a{
+    color: black;
+}
+.dibu2{
+    display: none;
+    background: #4c4c4c;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 42rem;
+}
+.dd{
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+}
+.pagenow{
+
+    display: none;
+    width: 400px;
+    height: 400px;
+    background: grey;
+    position: relative;
+    left: 400px;
+    top: 250px;
+
+}
+.pin3{
+    width: 380px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.pin4{
+    width: 380px;
+    height: 260px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.da{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.pbt5{
+    height: 30px;
+    width: 150px;
+    background: red;
+    color: white;
+    border: red;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.pbt4{
+    height: 30px;
+    width: 150px;
+    background: red;
+    color: white;
+    border: red;
+    position: relative;
+    left:70px;
+    top: 20px;
+}
+.hr2{
+    text-decoration: none;
+    color: white;
+}
+.aa1{
+    position: relative;
+    font-size: 12px;
+    color: white;
+}
+.aa2{
+    font-size: 12px;
+    color: white;
+}
+.aa3{
+    font-size: 12px;
+    color: white;
+}
+.aa4{
+    font-size: 12px;
+    color: white;
+}
+.police2 {
+    position: relative;
+    left: 12rem;
+    bottom: 0px;
+}
+
+.guoqi2{
+    height: 15px;
+    width: 20px;
+    position: relative;
+    left: 10rem;
+    bottom: -18px;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.dibu>span a:hover{
+    color: black;
+}
+.tu1{
+    z-index: 101;
+}
+.md5{
+    display: none;
+}
+.md{
+    position: relative;
+    left: 10rem;
+}
+@media only screen and (orientation:portrait) {
+    body{
+       overflow-x:inherit;
+
+    }
+    .md{
+        position: relative;
+        left: 0rem;
+    }
+    .ig{
+        position: relative;
+        left: -55px;
+    }
+    .quanzidong{
+        font-size: 14px;
+    }
+    .yincang1{
+        display: none;
+    }
+    .clearfix{
+        display: none;
+    }
+   .yincang2{
+       display: none;
+   }
+   .md2{
+       top: 0rem;
+       text-align: center;
+
+   }
+   .shipin{
+       display: block;
+   }
+
+   .sheji{
+       top: 4em;
+   }
+   .wenzi2{
+       top: 6rem;
+   }
+   .yincang3{
+       display: none;
+   }
+   .che1{
+       top: 6rem;;
+       left:7rem;
+
+   }
+   .md3{
+       display: none;
+   }
+    .md4{
+        display: none;
+        /*position: relative;*/
+        /*left: 0;*/
+        /*top:0;*/
+    }
+    .md5{
+        display:block;
+        position: relative;
+        left: 0rem;
+    }
+   /*.che1 .md3,.che1 .md3{*/
+     /*display: block;*/
+
+   /*}*/
+
+    .che1{
+        position: relative;
+        left: 0;
+    }
+   .wenzi3{
+       left: 0;
+       top: 10rem;
+       text-align: center;
+   }
+   .wenzi31{
+
+   }
+   .wenzi32{
+       left: 0;
+       top: 2rem;
+   }
+   .tu1{
+
+   }
+   .ying{
+       top: 13rem;
+   }
+   .l1{
+       top: 28rem;
+   }
+   .r1{
+       top: -10rem;
+       left: 1rem;
+   }
+   .l2{
+        top: 6rem;
+   }
+   .r2{
+       top: 14rem;
+       right: 1rem;
+   }
+   .in2{
+       position: relative;
+      top: 4rem;
+   }
+   .wenzi4{
+       top: 30rem;
+       text-align:left;
+       left: 1rem;
+   }
+   .hh3{
+       left:0rem;
+   }
+   .im5{
+      left: 8rem;
+   }
+
+   .hh4 {
+       text-align: center;
+   }
+   .hh5{
+       left: 0rem;
+   }
+   .guige{
+       display: none;
+   }
+   .dibu{
+       display: none;
+   }
+   .zixun{
+       display: none;
+   }
+   .dibu2{
+       display: block;
+   }
+   .police2{
+
+       text-align: center;
+   }
+   .zhong{
+       position: relative;
+       top: 15rem;
+   }
+   #ad5{
+       z-index: 101;
+   }
+   .hh3{
+       position: relative;
+       top: -2rem;
+   }
+   .ying2{
+       top: 30rem;
+   }
+   .ying1{
+        z-index: 101;
+   }
+
+
+}
+
