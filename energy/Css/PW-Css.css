@@ -1,0 +1,1676 @@
+@media screen and (min-width: 1250px) {
+    html{
+        font-size: 62.5%;
+    }
+    .part0 {
+        width: 100%;
+        height: 4.5rem;
+        /*position: absolute;*/
+        top: 0;
+        left: 0;
+        background-color: black;
+        position: fixed;
+        z-index: 101;
+    }
+
+    .part0 > a > img {
+        width: 7%;
+        height: 30%;
+        position: absolute;
+        top: 1.5rem;
+        left: 5%;
+    }
+
+    .part0 > div.text0 {
+        width: 70%;
+        height: 3rem;
+        position: absolute;
+        top: 1.3rem;
+        right: 15%;
+    }
+
+    .part0 > div.text0 > div.text0_1 {
+        width: 50%;
+        height: 3rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        font-size: 1.4rem;
+        font-family: "微软雅黑";
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .part0 > div.text0 > div.text0_1 > a {
+        color: white;
+    }
+
+    .part0 > div.text0 > div.text0_1 > a:link {
+        text-decoration: none;
+    }
+
+    .part0 > div.text0 > div.text0_1 > a:hover {
+        text-decoration: none;
+    }
+
+    .part0 > div.text0 > div.text0_2 {
+        width: 50%;
+        height: 3rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: white;
+        font-size: 1.4rem;
+        font-family: "微软雅黑";
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .part0 > div.text0 > div.text0_2 > a {
+        color: #b3b3b3;
+    }
+
+    .part0 > div.text0 > div.text0_2 > a:link {
+        text-decoration: none;
+    }
+
+    .part0 > div.text0 > div.text0_2 > a:hover {
+        text-decoration: none;
+    }
+
+    .part1 {
+        width: 100%;
+        height: 64rem;
+        position: absolute;
+        top: 4.5rem;
+        left: 0;
+    }
+
+    .part1 > img {
+        width: 100%;
+        height: 54rem;
+    }
+
+    .part1 > div.text1-1 {
+        width: 70%;
+        height: 9rem;
+        position: absolute;
+        top: 4rem;
+        left: 15%;
+    }
+
+    .part1 > div.text1-1 > div.link1 {
+        width: 50%;
+        height: 5rem;
+        position: absolute;
+        top: -3rem;
+        left: 0;
+        text-align: left;
+    }
+
+    .part1 > div.text1-1 > div.link1 > p {
+        color: white;
+        font-size: 3.6rem;
+        font-weight: lighter;
+    }
+
+    .part1 > div.text1-1 > div.link2 {
+        width: 50%;
+        height: 2rem;
+        position: absolute;
+        right: 0;
+        top: 2rem;
+        text-align: right;
+    }
+
+    .part1 > div.text1-1 > div.link2 > a {
+        color: white;
+        font-size: 1.4rem;
+        font-family: 微软雅黑;
+    }
+
+    .part1 > div.text1-1 > div.link2 > a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .part1 > div.text1-1 > div.link2 > a:hover {
+        color: #ACACAC;
+        text-decoration: none;
+    }
+
+    hr {
+        width: 100%;
+        position: absolute;
+        bottom: 2rem;
+    }
+
+    .part1 > div.text1-2 {
+        width: 100%;
+        height: 2.5rem;
+        position: absolute;
+        bottom: 11rem;
+        left: 0;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-1 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-1 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-2 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 25%;
+        text-align: center;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-2 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-3 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 25%;
+        text-align: center;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-3 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-4 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-4 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part1 > div.text1-3 {
+        width: 100%;
+        height: 10rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-1 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-1 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-2 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 25%;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-2 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-3 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 25%;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-3 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-4 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-4 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part2 {
+        width: 100%;
+        height: 31.5rem;
+        position: absolute;
+        top: 68.5rem;
+        left: 0;
+    }
+
+    .part2 > div.text2_1 {
+        width: 50%;
+        height: 5rem;
+        position: absolute;
+        top: 4rem;
+        left: 25%;
+    }
+
+    .part2 > div.text2_1 > p {
+        color: black;
+        font-size: 3.2rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .part2 > div.text2_2 {
+        width: 80%;
+        height: 3rem;
+        position: absolute;
+        top: 11rem;
+        left: 10%;
+    }
+
+    .part2 > div.text2_2 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .part2 > div.text2_3 {
+        width: 16%;
+        height: 3.4rem;
+        position: absolute;
+        top: 20rem;
+        left: 42%;
+        text-align: center;
+        background-color: #2693ff;
+    }
+
+    .part2 > div.text2_3 > a {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        position: relative;
+        top: 1.2rem;
+    }
+
+    .part2 > div.text2_3 > a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .part2 > div.text2_3 > a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .part3 {
+        width: 100%;
+        height: 45rem;
+        position: absolute;
+        top: 100rem;
+        left: 0;
+    }
+
+    .part3 > img {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part3 > div.text3 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #F2F2F2;
+    }
+
+    .part3 > div.text3 > div.text3_1 {
+        width: 70%;
+        height: 34%;
+        position: absolute;
+        top: 33%;
+        right: 15%;
+    }
+
+    .part3 > div.text3 > div.text3_1 > div.text3_1_1 {
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part3 > div.text3 > div.text3_1 > div.text3_1_1 > p {
+        font-size: 3.2rem;
+        font-weight: normal;
+    }
+
+    .part3 > div.text3 > div.text3_1 > div.text3_1_2 {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part3 > div.text3 > div.text3_1 > div.text3_1_2 > p {
+        font-size: 1.4rem;
+        font-weight: lighter;
+        letter-spacing:0.1rem;
+    }
+
+    .part4 {
+        width: 100%;
+        height: 60rem;
+        position: absolute;
+        top: 145rem;
+        left: 0;
+    }
+
+    .part4 > div.text4_1 {
+        width: 100%;
+        height: 16rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part4 > div.text4_1 > div.text4_1_1 {
+        width: 20%;
+        height: 20%;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        text-align: center;
+        letter-spacing: 0.3rem;
+    }
+
+    .part4 > div.text4_1 > div.text4_1_1 > p {
+        color: black;
+        font-size: 3.2rem;
+    }
+
+    .part4 > div.text4_1 > div.text4_1_2 {
+        width: 60%;
+        height: 15%;
+        position: absolute;
+        bottom: 30%;
+        left: 20%;
+        text-align: center;
+    }
+
+    .part4 > div.text4_1 > div.text4_1_2 > p {
+        color: grey;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .part4 > div.text4_2 {
+        width: 100%;
+        height: 1rem;
+        position: absolute;
+        top: 16rem;
+        left: 0;
+    }
+
+    .part4 > div.text4_2 > div.text4_2_1 {
+        width: 33%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 1%;
+    }
+
+    .part4 > div.text4_2 > div.text4_2_1 > p {
+        color: #0181ff;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part4 > div.text4_2 > div.text4_2_2 {
+        width: 33%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 34%;
+    }
+
+    .part4 > div.text4_2 > div.text4_2_2 > p {
+        color: grey;
+        font-size: 1.4rem;
+    }
+
+    .part4 > div.text4_3 {
+        width: 100%;
+        height: 35rem;
+        position: absolute;
+        top: 21rem;
+        left: 0;
+    }
+
+    .part4 > div.text4_3 > video {
+        width: 100%;
+        height: auto;
+        max-height: 32em;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+
+    .part4 > div.text4_4 {
+        width: 100%;
+        height: 7rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .part4 > div.text4_4 > p {
+        color: grey;
+        font-size: 1.4rem;
+        font-weight: normal;
+    }
+
+    .part5 {
+        width: 100%;
+        height: 40rem;
+        position: absolute;
+        top: 205rem;
+        left: 0;
+        background-color: #f2f2f2;
+    }
+
+    .part5 > img {
+        width: 26%;
+        height: 70%;
+        position: absolute;
+        top: 15%;
+        right: 15%;
+    }
+
+    .part5 > div.text5 {
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part5 > div.text5 > div.text5_1 {
+        width: 60%;
+        height: 30%;
+        position: absolute;
+        top: 30%;
+        right: 0;
+    }
+
+    .part5 > div.text5 > div.text5_1 > div.text5_1_1 {
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+
+    .part5 > div.text5 > div.text5_1 > div.text5_1_1 > p {
+        font-size: 3.2rem;
+        font-weight: normal;
+        letter-spacing: 0.2rem;
+    }
+
+    .part5 > div.text5 > div.text5_1 > div.text5_1_2 {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part5 > div.text5 > div.text5_1 > div.text5_1_2 > p {
+        font-size: 1.4rem;
+        font-weight: lighter;
+        letter-spacing: 0.1rem;
+    }
+
+    .part6 {
+        width: 100%;
+        height: 65rem;
+        position: absolute;
+        top: 245rem;
+        left: 0;
+    }
+
+    .part6 > div.text6_1 {
+        width: 100%;
+        height: 14rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_1 > div.text6_1_1 {
+        width: 20%;
+        height: 20%;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        text-align: center;
+    }
+
+    .part6 > div.text6_1 > div.text6_1_1 > p {
+        color: black;
+        font-size: 3.2rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .part6 > div.text6_2 {
+        width: 100%;
+        height: 42rem;
+        position: absolute;
+        top: 14rem;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_1 {
+        width: 25%;
+        height: 40%;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_1 > img {
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_2 {
+        width: 25%;
+        height: 40%;
+        position: absolute;
+        bottom: 20%;
+        left: 20%;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_2 > img {
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 {
+        width: 30%;
+        height: 70%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 > div.text6_2_3_1_1 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 > div.text6_2_3_1_2 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 > div.text6_2_3_1_3 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 > div.text6_2_3_1_4 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 {
+        width: 40%;
+        height: 70%;
+        position: absolute;
+        top: 0;
+        left: 30%;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 > div.text6_2_3_2_1 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 > div.text6_2_3_2_2 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 > div.text6_2_3_2_3 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 > div.text6_2_3_2_4 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_3 {
+        width: 70%;
+        height: 10%;
+        position: absolute;
+        bottom: 20%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_3 > p {
+        color: grey;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .part6 > div.text6_3 {
+        width: 100%;
+        height: 12rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+    }
+
+    .part6 > div.text6_3 > div.text6_3_1 {
+        width: 16%;
+        height: 3.4rem;
+        position: absolute;
+        top: 6rem;
+        left: 42%;
+        text-align: center;
+        background-color: #2693ff;
+    }
+
+    .part6 > div.text6_3 > div.text6_3_1 > a {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        position: relative;
+        top: 1.2rem;
+    }
+
+    .part6 > div.text6_3 > div.text6_3_1 > a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .part6 > div.text6_3 > div.text6_3_1 > a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .tail {
+        width: 85%;
+        height: 3rem;
+        position: absolute;
+        top: 315rem;
+        left: 15%;
+        color: grey;
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+
+    .tail > a {
+        color: grey;
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+
+    .tail > a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .tail > a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    #china {
+        width: 1.6rem;
+        height: 1rem;
+    }
+
+    #police {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+@media screen and (max-width:1250px) {
+    html{
+        font-size: 62.5%;
+        min-width: 768px;
+    }
+    #tittle{
+        display: none;
+    }
+    .part0 {
+        width: 100%;
+        height: 6rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+    }
+
+    .part0 > a > img {
+        width: 15%;
+        height: 40%;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+
+    .part0 > div.text0 {
+        width: 50%;
+        height: 60%;
+        position: absolute;
+        top: 20%;
+        right: 15%;
+        text-align: right;
+    }
+
+    .part0 > div.text0 > div.text0_1 {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        font-size: 1.4rem;
+        font-family: "微软雅黑";
+        font-weight: bold;
+    }
+
+    .part0 > div.text0 > div.text0_1 > a {
+        color: white;
+    }
+
+    .part0 > div.text0 > div.text0_1 > a:link {
+        text-decoration: none;
+    }
+
+    .part0 > div.text0 > div.text0_1 > a:hover {
+        text-decoration: none;
+    }
+
+    .part0 > div.text0 > div.text0_2 {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: white;
+        font-size: 1.4rem;
+        font-family: "微软雅黑";
+        font-weight: bold;
+    }
+
+    .part0 > div.text0 > div.text0_2 > a {
+        color: #b3b3b3;
+    }
+
+    .part0 > div.text0 > div.text0_2 > a:link {
+        text-decoration: none;
+    }
+
+    .part0 > div.text0 > div.text0_2 > a:hover {
+        text-decoration: none;
+    }
+
+    .part1 {
+        width: 100%;
+        height: 52rem;
+        position: absolute;
+        top: 6rem;
+        left: 0;
+    }
+
+    .part1 > img {
+        width: 100%;
+        height: 43.8rem;
+    }
+
+    .part1 > div.text1-1 {
+        width: 70%;
+        height: 6rem;
+        position: absolute;
+        top: 2rem;
+        left: 15%;
+    }
+
+    .part1 > div.text1-1 > div.link1 {
+        width: 50%;
+        height: 4rem;
+        position: absolute;
+        top: -2.5rem;
+        left: 0;
+        text-align: left;
+    }
+
+    .part1 > div.text1-1 > div.link1 > p {
+        color: white;
+        font-size: 3.2rem;
+        font-weight: lighter;
+    }
+
+    .part1 > div.text1-1 > div.link2 {
+        width: 50%;
+        height: 2rem;
+        position: absolute;
+        right: 0;
+        top: 2rem;
+        text-align: right;
+    }
+
+    .part1 > div.text1-1 > div.link2 > a {
+        color: white;
+        font-size: 1.4rem;
+        font-family: 微软雅黑;
+    }
+
+    .part1 > div.text1-1 > div.link2 > a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .part1 > div.text1-1 > div.link2 > a:hover {
+        color: #ACACAC;
+        text-decoration: none;
+    }
+
+    hr {
+        width: 100%;
+        position: absolute;
+        bottom: 1rem;
+    }
+
+    .part1 > div.text1-2 {
+        width: 100%;
+        height: 2.4rem;
+        position: absolute;
+        bottom: 9rem;
+        left: 0;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-1 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-1 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-2 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 25%;
+        text-align: center;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-2 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-3 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 25%;
+        text-align: center;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-3 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-4 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .part1 > div.text1-2 > div.text1-2-4 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part1 > div.text1-3 {
+        width: 100%;
+        height: 8.2rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-1 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-1 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-2 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 25%;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-2 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-3 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 25%;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-3 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-4 {
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .part1 > div.text1-3 > div.text1-3-4 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part2 {
+        width: 100%;
+        height: 30rem;
+        position: absolute;
+        top: 58rem;
+        left: 0;
+    }
+
+    .part2 > div.text2_1 {
+        width: 80%;
+        height: 5rem;
+        position: absolute;
+        top: 3rem;
+        left: 10%;
+    }
+
+    .part2 > div.text2_1 > p {
+        color: black;
+        font-size: 3.2rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .part2 > div.text2_2 {
+        width: 90%;
+        height: 4rem;
+        position: absolute;
+        top: 10rem;
+        left: 5%;
+    }
+
+    .part2 > div.text2_2 > p {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .part2 > div.text2_3 {
+        width: 20%;
+        height: 3rem;
+        position: absolute;
+        top: 20rem;
+        left: 42%;
+        text-align: center;
+        background-color: #2693ff;
+    }
+
+    .part2 > div.text2_3 > a {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        position: relative;
+        top: 0.8rem;
+    }
+
+    .part2 > div.text2_3 > a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .part2 > div.text2_3 > a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .part3 {
+        width: 100%;
+        height: 32rem;
+        position: absolute;
+        top: 88rem;
+        left: 0;
+    }
+
+    .part3 > img {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part3 > div.text3 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #F2F2F2;
+    }
+
+    .part3 > div.text3 > div.text3_1 {
+        width: 80%;
+        height: 50%;
+        position: absolute;
+        top: 25%;
+        right: 10%;
+    }
+
+    .part3 > div.text3 > div.text3_1 > div.text3_1_1 {
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part3 > div.text3 > div.text3_1 > div.text3_1_1 > p {
+        font-size: 3.2rem;
+        font-weight: normal;
+    }
+
+    .part3 > div.text3 > div.text3_1 > div.text3_1_2 {
+        width: 100%;
+        height: 60%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part3 > div.text3 > div.text3_1 > div.text3_1_2 > p {
+        font-size: 1.4rem;
+        font-weight: lighter;
+        letter-spacing:0.1rem;
+    }
+
+    .part4 {
+        width: 100%;
+        height: 48rem;
+        position: absolute;
+        top: 120rem;
+        left: 0;
+    }
+
+    .part4 > div.text4_1 {
+        width: 100%;
+        height: 14rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part4 > div.text4_1 > div.text4_1_1 {
+        width: 80%;
+        height: 15%;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        text-align: center;
+        letter-spacing: 0.3rem;
+    }
+
+    .part4 > div.text4_1 > div.text4_1_1 > p {
+        color: black;
+        font-size: 3.2rem;
+    }
+
+    .part4 > div.text4_1 > div.text4_1_2 {
+        width: 80%;
+        height: 15%;
+        position: absolute;
+        bottom: 32%;
+        left: 10%;
+        text-align: center;
+    }
+
+    .part4 > div.text4_1 > div.text4_1_2 > p {
+        color: grey;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .part4 > div.text4_2 {
+        width: 100%;
+        height: 1rem;
+        position: absolute;
+        top: 14rem;
+        left: 0;
+    }
+
+    .part4 > div.text4_2 > div.text4_2_1 {
+        width: 33%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 1%;
+    }
+
+    .part4 > div.text4_2 > div.text4_2_1 > p {
+        color: #0181ff;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .part4 > div.text4_2 > div.text4_2_2 {
+        width: 33%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 34%;
+    }
+
+    .part4 > div.text4_2 > div.text4_2_2 > p {
+        color: grey;
+        font-size: 1.4rem;
+    }
+
+    .part4 > div.text4_3 {
+        width: 100%;
+        height: 26rem;
+        position: absolute;
+        top: 17rem;
+        left: 0;
+    }
+
+    .part4 > div.text4_3 > video {
+        width: 100%;
+        height: 26rem;
+        position: absolute;
+        left:0;
+        top:0;
+    }
+
+    .part4 > div.text4_4 {
+        width: 100%;
+        height: 6rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .part4 > div.text4_4 > p {
+        color: grey;
+        font-size: 1.4rem;
+        font-weight: normal;
+    }
+
+    .part5 {
+        width: 100%;
+        height: 40rem;
+        position: absolute;
+        top: 168rem;
+        left: 0;
+        background-color: #f2f2f2;
+    }
+
+    .part5 > img {
+        width: 40%;
+        height: 70%;
+        position: absolute;
+        top: 15%;
+        right: 0;
+    }
+
+    .part5 > div.text5 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part5 > div.text5 > div.text5_1 {
+        width: 90%;
+        height: 30%;
+        position: absolute;
+        top: 30%;
+        right: 0;
+    }
+
+    .part5 > div.text5 > div.text5_1 > div.text5_1_1 {
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+
+    .part5 > div.text5 > div.text5_1 > div.text5_1_1 > p {
+        font-size: 3.2rem;
+        font-weight: normal;
+        letter-spacing: 0.2rem;
+    }
+
+    .part5 > div.text5 > div.text5_1 > div.text5_1_2 {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: left;
+    }
+
+    .part5 > div.text5 > div.text5_1 > div.text5_1_2 > p {
+        font-size: 1.4rem;
+        font-weight: lighter;
+        letter-spacing: 0.1rem;
+    }
+
+    .part6 {
+        width: 100%;
+        height: 52rem;
+        position: absolute;
+        top: 208rem;
+        left: 0;
+    }
+
+    .part6 > div.text6_1 {
+        width: 100%;
+        height: 8rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_1 > div.text6_1_1 {
+        width: 60%;
+        height: 20%;
+        position: absolute;
+        top: 0;
+        left: 20%;
+        text-align: center;
+    }
+
+    .part6 > div.text6_1 > div.text6_1_1 > p {
+        color: black;
+        font-size: 3.2rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .part6 > div.text6_2 {
+        width: 100%;
+        height: 32rem;
+        position: absolute;
+        top: 8rem;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_1 {
+        width: 25%;
+        height: 30%;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_1 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_2 {
+        width: 25%;
+        height: 30%;
+        position: absolute;
+        bottom: 30%;
+        left: 10%;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_2 > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 {
+        width: 50%;
+        height: 70%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 > div.text6_2_3_1_1 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 > div.text6_2_3_1_2 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 > div.text6_2_3_1_3 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_1 > div.text6_2_3_1_4 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 {
+        width: 50%;
+        height: 70%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 > div.text6_2_3_2_1 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 > div.text6_2_3_2_2 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 > div.text6_2_3_2_3 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_2 > div.text6_2_3_2_4 {
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_3 {
+        width: 90%;
+        height: 10%;
+        position: absolute;
+        bottom: 25%;
+        left: 0;
+    }
+
+    .part6 > div.text6_2 > div.text6_2_3 > div.text6_2_3_3 > p {
+        color: grey;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .part6 > div.text6_3 {
+        width: 100%;
+        height: 12rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+    }
+
+    .part6 > div.text6_3 > div.text6_3_1 {
+        width: 24%;
+        height: 3rem;
+        position: absolute;
+        top: 4rem;
+        left: 38%;
+        text-align: center;
+        background-color: #2693ff;
+    }
+
+    .part6 > div.text6_3 > div.text6_3_1 > a {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        position: relative;
+        top: 0.8rem;
+    }
+
+    .part6 > div.text6_3 > div.text6_3_1 > a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .part6 > div.text6_3 > div.text6_3_1 > a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .tail {
+        width: 100%;
+        height: 3rem;
+        position: absolute;
+        top: 260rem;
+        left: 0;
+        color: grey;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .tail > a {
+        color: grey;
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+
+    .tail > a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .tail > a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    #china {
+        width: 1.6rem;
+        height: 1rem;
+    }
+
+    #police {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
