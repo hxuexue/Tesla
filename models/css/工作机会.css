@@ -1,0 +1,385 @@
+body{
+
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+
+}
+#page {
+    background: rgba(252, 255, 242, 0);
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    max-width: 1440px;
+    width:100%;
+    margin: auto;
+    height: auto;
+
+
+}
+.logo{
+    /*text-align: center;*/
+    background: black;
+    opacity: 0.8;
+    width:100%;
+    /*position: relative;*/
+    /*left: 112px;*/
+    height: 60px;
+}
+.lg{
+    position: relative;
+    left: 170px;
+    top:20px;
+}
+.text{
+    top:20px;
+    position: relative;
+    left: 170px;
+    display: inline-block;
+    color: white;
+    font-family:"微软雅黑",Verdana,Sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+}
+.text1{
+    color: darkgray;
+}
+.jihui{
+    color: darkgray;;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.ding{
+    background:url("../img/careers-hero.jpg");
+    height:650px ;
+    width: 100%;
+    /*top:4rem;*/
+    position: relative;
+}
+.xiao1{
+    font-size: 12px;
+    margin-left: 120px;
+}
+.xiao{
+    font-size: 12px;
+}
+.zhu{
+    height: auto;
+    width: 100%;
+    position: relative;
+    /*left: -80px;*/
+    /*left:112px;*/
+    /*top:50px;*/
+}
+.ModelS{
+    font-size: 40px;
+    color: white;
+    font-family: 微软雅黑;
+    left: 80px;
+    top:30px;
+    position: relative;
+    width: 200px;
+}
+.zi1{
+    float: right;
+    width: auto;
+    right: 80px;
+    position: relative;
+}
+.xian{
+    color: white;
+    width: 1100px;
+    /*left: 170px;*/
+    top:30px;
+    position: relative;
+}
+.text3{
+    display: inline;
+    text-align: center;
+    width: auto;
+    position: relative;
+    left: 400px;
+}
+.guanjian{
+    width: 150px;
+    height: 30px;
+    top:-2px;
+    position: relative;
+}
+.bumen{
+    width: 150px;
+    height: 35px;
+    margin-top: 5px;
+}
+.sou{
+    width: 100px;
+    height: 35px;
+    background: red;
+    color: white;
+    border: 0;
+}
+.tuandui{
+    text-align: center;
+}
+.zhiwei{
+    position: relative;
+    top:20px;
+}
+.zhi{
+    color: #ef5248;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 华文行楷;
+}
+.zhi:hover{
+    color: #ff0000;
+}
+.tuan{
+    font-size: 50px;
+    font-family: 黑体;
+    position: relative;
+    top:100px;
+}
+.dui{
+    text-align: left;
+    position: relative;
+    left: 300px;
+    top:150px;
+}
+.dd{
+    color: #ef5248;
+    text-decoration: none;
+    font-size: 14px;
+}
+.dd:hover{
+    color:red;
+}
+.xian1{
+    width: 1440px;
+    color: black;
+    position: relative;
+    top:200px;
+}
+.shiming{
+    font-size: 48px;
+    font-family: "微软雅黑", bold;
+    text-align: center;
+    top:250px;
+    position: relative;
+}
+.zhili{
+    font-size: 14px;
+    font-family: "微软雅黑", bold;
+    top:260px;
+    position: relative;
+    text-align: center;
+}
+.tu1{
+    position: relative;
+    top:300px;
+    left: 80px;
+    /*text-align: center;*/
+}
+.chun{
+    font-size: 30px;
+    font-family: 黑体;
+    text-align: center;
+    position: relative;
+    top:400px;
+}
+.xianjin{
+    font-size: 14px;
+    font-family: 微软雅黑;
+    position: relative;
+    top:400px;
+    text-align: center;
+}
+
+.ji{
+    /*display: block;*/
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+.sheshi{
+    position: relative;
+    top:450px;
+    left: 80px;
+    display: inline;
+}
+.shi{
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+.sui{
+    font-size: 15px;
+    font-family: 微软雅黑;
+    position: relative;
+    top:20px;
+}
+
+.energy{
+    /*display: block;*/
+    width: 500px;
+    /*margin-left:100px;*/
+    /*padding: 0;*/
+    position: relative;
+    right: 80px;
+    /*top:-290px;*/
+    float: right;
+    top:160px;
+}
+.xian2{
+    width: 1440px;
+    color: black;
+    position: relative;
+    top:300px;
+}
+.zhiwei{
+    text-align: center;
+    /*position: relative;*/
+    /*left: 0;*/
+}
+.po {
+    font-size: 30px;
+    font-family: 黑体;
+    /*text-align: center;*/
+    position: relative;
+    top: 400px;
+}
+.tit{
+    position: relative;
+    top:500px;
+    text-align: left;
+    left: 170px;
+    font-size: 12px;
+}
+.wei{
+    position: relative;
+    top:500px;
+}
+.liu{
+    color: #ef5248;
+    text-decoration:none;
+    top:30px;
+    position: relative;
+}
+.liu:hover{
+    color: #ff0000;
+}
+.shixi{
+    text-align: left;
+    top:500px;
+    position: relative;
+    left: 80px;
+}
+.sz{
+    font-size: 20px;
+    font-family: 黑体;
+}
+.zizi{
+    top:20px;
+    position: relative;
+}
+.pe{
+    position: relative;
+    top:370px;
+    left: 270px;
+}
+.qiuzhi{
+    position: relative;
+    left: 520px;
+    top:160px;
+}
+.youxiang{
+    top:30px;
+    position: relative;
+}
+.xiang{
+    color: #ef5248;
+    text-decoration:none;
+    /*top:10px;*/
+    position: relative;
+    font-size: 20px;
+}
+.xiang:hover{
+    color: #ff0000;
+}
+.youjian{
+    top:30px;
+    position: relative;
+}
+.tong{
+    color: #ef5248;
+    text-decoration:none;
+    top:40px;
+    position: relative;
+    font-size: 20px;
+
+}
+.tong:hover{
+    color: #ff0000;
+}
+.guanzhu{
+    left:920px ;
+    position: relative;
+    /*float: right;*/
+}
+.tuu2{
+    top:-170px;
+    position: relative;
+    left: 170px;
+}
+/*.xiabiao{*/
+    /*width: 1100px;*/
+    /*position: relative;*/
+    /*left: 170px;*/
+    /*!*top:130px;*!*/
+/*}*/
+/*.di{*/
+    /*color: grey;*/
+
+/*}*/
+/*.tub{*/
+    /*position: relative;*/
+    /*left: 130px;*/
+    /*top:45px;*/
+    /*width: 20px;*/
+/*}*/
+.xiabiao {
+    width: 100%;
+    position: relative;
+    /*left: 17rem;*/
+    top: 13rem;
+    text-align: center;
+}
+
+.di {
+    color: grey;
+
+}
+
+.tub {
+    position: relative;
+    left: 33%;
+    top: 3.5rem;
+    width: 2rem;
+}
+/*.guo{*/
+    /*position: relative;*/
+    /*left: 700px;*/
+    /*top:20px;*/
+    /*width: 30px;*/
+/*}*/
+.guo {
+    position: relative;
+    left: 69%;
+    top: 1.8rem;
+    width: 3rem;
+}

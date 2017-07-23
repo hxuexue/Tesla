@@ -1,0 +1,918 @@
+@media screen and (min-width: 765px)and (max-width: 1099px){
+        .content{
+            width:100%;
+            margin: auto;
+            height: auto;
+        }
+
+    .navbar{
+        background:black;
+        width: 100%;
+        margin: 0 auto;
+        border-bottom:0;
+    }
+    .nav1{
+        width:100%;
+        margin: 0 auto;
+        line-height: 4rem;
+
+    }
+    .ig{
+        margin-left: 2rem;
+    }
+    #caidan>ul:last-child{
+        display: none;
+    }
+    .img{
+        /*display: none;*/
+        top:4rem;
+        position: relative;
+        border-top:0 ;
+
+    }
+    .clearfix b{
+        position: absolute;
+        left: 10%;
+        top:6rem;
+        font-size: 25px;
+        font-family: 华文仿宋;
+    }
+    .uu1{
+        font-size: 10px;
+        font-family: 华文仿宋;
+        position: absolute;
+        top:6rem;
+        right:15%;
+    }
+    .uu2{
+        font-size: 10px;
+        font-family: 华文仿宋;
+        position: absolute;
+        top:6rem;
+        right:25%;
+    }
+    .uu3{
+        font-size: 10px;
+        font-family: 华文仿宋;
+        position: absolute;
+        top:6rem;
+        right:35%;
+    }
+    .uu4{
+        font-size: 10px;
+        font-family: 华文仿宋;
+        position: absolute;
+        top:6rem;
+        right:45%;
+    }
+    .xian{
+        width: 70%;
+        border: 0.5px solid white;
+        position: absolute;
+        top:11rem;
+        left:10%;
+    }
+    .chuse{
+        color: black;
+        font-size: 38px;
+        text-align: center;
+        font-family: 微软雅黑;
+        position: relative;
+        top:5rem;
+    }
+    .jianjie {
+        font-size: 14px;
+        font-family: 微软雅黑;
+        text-align: center;
+        position: relative;
+        top:5rem;
+    }
+
+    .dibu{
+        display: none;
+    }
+    .tu{
+        width: 90%;
+        margin: 0 auto;
+        /*left: 170px;*/
+        position: relative;
+        top:5rem;
+    }
+    .tt1{
+        float: left;
+        position: relative;
+        left: 0;
+        width: 50%;
+        /*margin-left:152px;*/
+        padding: 0;
+        bottom:0;
+
+    }
+    .tu1{
+        left: 0;
+        top:0;
+        /*width: 550px;*/
+        position: relative;
+
+    }
+    .tt2{
+        position: relative;
+        right: 0;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        bottom:0;
+        float: right;
+        text-align: left;
+
+    }
+    .tu2{
+        right: 0;
+        top:1rem;
+        position: relative;
+
+    }
+
+    .z1{
+        margin-top: 1rem;
+        font-size: 18px;
+        font-family: 微软雅黑;
+
+
+    }
+    .z2{
+        top:2rem;
+        position: relative;
+        font-size: 18px;
+        font-family: 微软雅黑;
+
+
+    }
+    .z22{
+        position: relative;
+        top:2rem;
+        /*float: right;*/
+    }
+
+        .zidong{
+             height:50px;
+             position: relative;
+             color: black;
+             font-size: 48px;
+             font-family: 微软雅黑;
+             /*text-align: center;*/
+             top:7.5rem;
+             width: 100%;
+         }
+        .dong{
+        position: relative;
+            left: -16rem;
+        }
+
+    .shipin1{
+        width: 49.5rem;
+        height:23rem;
+        background: black;
+        position: relative;
+        /*margin:0 auto;*/
+        left: 40%;
+        /*right: 0;*/
+        top:36rem;
+        border: 0;
+    }
+    .bird1{
+        top:-23.5rem;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    .xing{
+        font-family: 华文仿宋;
+        font-size: 1.4rem;
+        /*text-align: center;*/
+        top:38rem;
+        position: relative;
+        left: 40%;
+    }
+    .jie{
+        font-size: 1.4rem;
+        font-family: 微软雅黑;
+        /*text-align: center;*/
+        top:38rem;
+        position: relative;
+        left: 40%;
+    }
+    .btn11{
+        width: 110rem;
+        height: auto;
+        text-align: center;
+        top:40rem;
+        left: -30%;
+        position: relative;
+    }
+    .btn1{
+        width: 10rem;
+        height: 3.5rem;
+        background: #333333;
+        color: white;
+        border: 0;
+        left: 5%;
+        position: relative;
+    }
+    .btn2{
+        width: 10rem;
+        height: 3.5rem;
+        background: #333333;
+        color: white;
+        border: 0;
+        left: 5%;
+        position: relative;
+    }
+    .quanlun{
+        width: 100%;
+        position: relative;
+        left: -40%;
+    }
+    .diandong{
+        height: 5rem;
+        position: relative;
+        color: black;
+        font-size: 4.8rem;
+        font-family: 微软雅黑;
+        text-align: center;
+        top:50rem;
+        left: 13rem;
+        width: 110rem;
+    }
+    .che{
+        position: relative;
+        top:51rem;
+        left: 25rem;
+        display: block;
+    }
+    .che1{
+        position: relative;
+        top:51rem;
+        left: 24.6rem;
+        display: none;
+    }
+    .che2{
+        position: relative;
+        top:51rem;
+        left: 25rem;
+        display: none;
+    }
+    #ad5{
+        display: none;
+    }
+    .che3{
+        position: relative;
+        top:51rem;
+        left: 25rem;
+        display: none;
+    }
+    .che4{
+        position: relative;
+        top:51rem;
+        left: 25rem;
+        display: none;
+    }
+    .che5{
+        position: relative;
+        top:51rem;
+        left: 25rem;
+        display: none;
+    }
+
+    .ju{
+        width: 110rem;
+        height: 15rem;
+        text-align: center;
+        left: 47.5rem;
+        position: relative;
+
+    }
+    .bbtn1{
+        position: relative;
+        top:52rem;
+        /*left: 170px;*/
+        float: left;
+        width: 16.9rem;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        /*display: none;*/
+    }
+    .bbtn11{
+        position: relative;
+        top:51.9rem;
+        /*left: 170px;*/
+        float: left;
+        width: 16.9rem;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+    .bbtn2{
+        position: relative;
+        top:52rem;
+        left: -4rem;
+        float: left;
+        width: 16.9rem;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        /*display: none;*/
+    }
+    .bbtn22{
+        position: relative;
+        top:51.8rem;
+        left: -4rem;
+        float: left;
+        width: 16.9rem;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+    .bbtn3{
+        position: relative;
+        top:51.9rem;
+        left: -8rem;
+        float: left;
+        width: 16.9rem;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        /*display: none;*/
+    }
+
+
+    .bbtn33{
+        position: relative;
+        top:51.8rem;
+        left: -8rem;
+        float: left;
+        width: 16.9rem;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+    .bing{
+        position: relative;
+        /*left: 17rem;*/
+        text-align: left;
+        top:60rem;
+        width: 110rem;
+    }
+    .zuo{
+        font-size: 1.4rem;
+        font-family: 宋体;
+        width: 49rem;
+        position: relative;
+        left: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .you{
+        width: 39rem;
+        height: 23rem;
+        background: black;
+        position: relative;
+        top:-20rem;
+        left:55rem;
+
+    }
+    .xue{
+        position: relative;
+        /*left: 400px;*/
+        /*top:130px;*/
+        text-align: left;
+        font-size: 1.4rem;
+        font-family: 微软雅黑;
+    }
+    .xue1{
+        position: relative;
+        /*left: 400px;*/
+        /*top:130px;*/
+        text-align: left;
+        font-size: 1.4rem;
+        font-family: 微软雅黑;
+    }
+    .center{
+        position: relative;
+        /*left: 17rem;*/
+        top:45rem;
+        width:110rem;
+        text-align: center;
+    }
+    .jiashiyuan{
+        font-size: 4.8rem;
+        font-family: 微软雅黑;
+        /*top:450px;*/
+        position: relative;
+        left: -5rem;
+    }
+    .tiyan{
+        font-size: 1.4rem;
+        font-family: 微软雅黑;
+        /*top:450px;*/
+        left: 23rem;
+        position: relative;
+        text-align: left;
+    }
+    .tuu1{
+        left: -2%;
+        position: relative;
+        /*top:500px;*/
+        display: block;
+        /*margin: 0 auto;*/
+        width: 100%;
+    }
+    .tuu2{
+        left: -2%;
+        /*position: relative;*/
+        width: 100%;
+        /*top:500px;*/
+        display: none;
+    }
+    .tuu3{
+        left: -2%;
+        /*position: relative;*/
+        width: 100%;
+        /*top:500px;*/
+        display: none;
+    }
+    .tuu4{
+        left: -2%;
+        /*position: relative;*/
+        /*top:500px;*/
+        width: 100%;
+        display: none;
+    }
+    .tuu5{
+        left: -2%;
+        /*position: relative;*/
+        width: 100%;
+        /*top:500px;*/
+        display: none;
+    }
+    .jtz{
+        width: 7rem;
+        height: 10rem;
+        font-size: 5rem;
+        position: relative;
+        top:-30rem;
+        text-align: left;
+        left: -45%;
+        opacity: 0.5;
+    }
+
+    .jty{
+        width: 7rem;
+        height: 10rem;
+        font-size: 5rem;
+        position: relative;
+        top:-40rem;
+        text-align: left;
+        right: 20%;
+        float: right;
+        opacity: 0.5;
+    }
+    .anquan{
+        width: 110rem;
+        /*left: 17rem;*/
+        top:35rem;
+        position: relative;
+    }
+    .quan{
+        font-size: 4.8rem;
+        font-family: 微软雅黑;
+    }
+    .zz1{
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        font-family: 微软雅黑;
+        width: 50rem;
+    }
+    .shipin2{
+        width: 34.7rem;
+        height: 19.5rem;
+        /*background: black;*/
+        position: relative;
+        left: 60rem;
+        top:-20rem;
+    }
+    .an1{
+        position: relative;
+        left: 0;
+        /*top:100px;*/
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+    }
+    .an2{
+        position: relative;
+        left: 0;
+        /*top:110px;*/
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+    }
+    .xian1{
+        color: black;
+        width: 110rem;
+        top: 25rem;
+        /*left: -120px;*/
+        position: relative;
+    }
+    .ping{
+        width: 110rem;
+        /*left: 17rem;*/
+        position: relative;
+        top:30rem;
+    }
+    .chumo{
+        font-family: 微软雅黑;
+        font-size: 4.8rem;
+    }
+    .zizi1{
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+        width: 50rem;
+    }
+    .shipin3{
+        width: 34.3rem;
+        height: 20rem;
+        /*background: black;*/
+        margin-top: 2rem;
+    }
+    .zizi2{
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+        width: 50rem;
+    }
+    .zizi3{
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+        width: 50rem;
+    }
+    .wenzi{
+        float: left;
+    }
+    .xingneng1{
+        float: left;
+        width: 20rem;
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+    }
+    .xingneng2{
+        float: left;
+        width: 20rem;
+        margin-left: 9rem;
+        margin-right: 10rem;
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+    }
+    .zizi4{
+        margin-top: 0;
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+        position: relative;
+        top:9rem;
+        /*height: 300px;*/
+        width: auto;
+        text-align: left;
+    }
+    .gengxin{
+        background: url("../img/gengxin.jpg") no-repeat;
+        width: 100%;
+        height:41.9rem;
+        top: 40rem;
+        position: relative;
+        margin: 0 auto;
+        /*left: 5%;*/
+    }
+    .liaojie{
+        width: 10rem;
+        height: 3rem;
+        background: #333333;
+        border: 0;
+        color: white;
+        position: relative;
+        top:25rem;
+        float: right;
+        margin-right:10%;
+    }
+    .xuhang{
+        width: 110rem;
+        left: -10%;
+        text-align: center;
+        top:50rem;
+        position: relative;
+    }
+    .biao{
+        font-size: 4.8rem;
+        font-family: 微软雅黑;
+    }
+    .wheel1{
+        position: relative;
+        top:-9rem;
+        left: -18rem;
+        display: block;
+    }
+    .wheel2{
+        position: relative;
+        top:-16rem;
+        left: 14rem;
+        display: block;
+    }
+    .wheel3{
+        position: relative;
+        top:-10rem;
+        left: 14rem;
+        display: none;
+    }
+    .wheel4{
+        position: relative;
+        top:-18.2rem;
+        left: -18.2rem;
+        display: none;
+    }
+    .pd{
+        width: 110rem;
+        position: relative;
+        /*left: 17rem;*/
+        text-align: center;
+        top:35rem;
+    }
+    .a75{
+        font-size: 5rem;
+        font-family: 华文细黑;
+        color: deepskyblue;
+        position: relative;
+        left: -38rem;
+    }
+    .a75D{
+        font-size: 5rem;
+        font-family: 华文细黑;
+        color: deepskyblue;
+        position: relative;
+        left: -14rem;
+        top:-6rem;
+    }
+    .a100D{
+        font-size: 5rem;
+        font-family: 华文细黑;
+        color: deepskyblue;
+        position: relative;
+        left: 11rem;
+        top:-12rem;
+    }
+    .P100D{
+        font-size: 5rem;
+        font-family: 华文细黑;
+        color: deepskyblue;
+        position: relative;
+        left: 30rem;
+        top:-18rem;
+    }
+    .tiao{
+        text-align: center;
+        position: relative;
+        top:20rem;
+        /*left: 17rem;*/
+        width: 110rem;
+    }
+    .zhong1{
+        display: block;
+        top:-11rem;
+        left: 15rem;
+        position: relative;
+
+    }
+    .zhong2{
+        display: none;
+        top:-11rem;
+        left: 15rem;
+        position: relative;
+    }
+    .sudu{
+        float: left;
+        width: auto;
+    }
+    .du{
+        font-size: 1.8rem;
+        text-align: left;
+        height: 2rem;
+    }
+    .tiao1{
+        border: 2px solid grey;
+        width: 15rem;
+        height: 5rem;
+        position: relative;
+        margin-top: 1rem;
+        text-align: left;
+    }
+    .shang1{
+        background: url("../img/shang.jpg");
+        width: 3.4rem;
+        height: 2.7rem;
+        border: 0;
+        position: relative;
+        top:-4.5rem;
+        left: 7rem;
+        /*left: -400px;*/
+        /*top:-50px;*/
+    }
+    .xia1{
+        background: url("../img/xia.jpg");
+        width: 3.4rem;
+        height: 2.7rem;
+        border: 0;
+        position: relative;
+        left: 3.2rem;
+        top:-3rem;
+    }
+    .wdu{
+        float: left;
+        width: auto;
+        margin-left: 10rem;
+    }
+    .wendu{
+        font-size: 1.8rem;
+        text-align: left;
+        height: 2rem;
+    }
+    .tiao2{
+        border: 2px solid grey;
+        width: 15rem;
+        height: 5rem;
+        position: relative;
+        margin-top: 1rem;
+        text-align: left;
+    }
+    .shang2{
+        background: url("../img/shang.jpg");
+        width: 3.4rem;
+        height: 2.7rem;
+        border: 0;
+        position: relative;
+        top:-4.5rem;
+        left: 7rem;
+    }
+    .xia2{
+        background: url("../img/xia.jpg");
+        width: 3.4rem;
+        height: 2.7rem;
+        border: 0;
+        position: relative;
+        left: 3.2rem;
+        top:-3rem;
+    }
+    .cc{
+        position: relative;
+        left: 25rem;
+    }
+    .cc1{
+        font-size: 1.8rem;
+        text-align: left;
+        height: 2rem;
+    }
+    .chicun1{
+        background: url("../img/chicun1.jpg");
+        width: 149px;
+        height: 50px;
+        position: relative;
+        left: -20rem;
+        top:2rem;
+    }
+    .chicun2{
+        background: url("../img/chicun2.jpg");
+        width: 149px;
+        height: 50px;
+        position: relative;
+        left: -20rem;
+        top: 2rem;
+    }
+    .wenwen{
+        font-size: 1.4rem;
+        font-family: 微软雅黑;
+        position: relative;
+        top:30rem;
+        left: -24rem;
+        width: auto;
+        text-align: center;
+    }
+ .guige{
+     width: 100%;
+     position: relative;
+     left: -15%;
+
+ }
+    .gui{
+        font-size: 4.8rem;
+        font-family: 微软雅黑;
+        text-align: center;
+        width: 110rem;
+        position: relative;
+        left: -15%;
+        top: 35rem;
+    }
+    .xian2{
+        color: black;
+        width: 110rem;
+        top:35rem;
+        /*left: -400px;*/
+        position: relative;
+    }
+    .gg{
+        top:35rem;
+        position: relative;
+    }
+
+    .xiabiao{
+        width: 110rem;
+        position: relative;
+        left: 17rem;
+        top:13rem;
+    }
+
+    .di{
+        color: grey;
+
+    }
+    .tub{
+        position: relative;
+        left: 9rem;
+        top:3.5rem;
+        width: 2rem;
+    }
+    .dibu1{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background: white;
+        opacity: 0.9;
+        height: 8rem;
+    }
+    .xian3{
+        color: black;
+        margin-top: 0;
+        padding-top: 0;
+
+
+    }
+    .guo{
+        position: relative;
+        left: 47rem;
+        top:1.8rem;
+        width: 3rem;
+    }
+    .ms{
+        font-size: 4.468rem;
+        color: black;
+        font-family: 华文仿宋;
+        width: 20rem;
+        position: relative;
+        left: 17rem;
+    }
+    .shenqing{
+        font-family: 微软雅黑;
+        font-size: 1.4rem;
+        color: red;
+        position: relative;
+        left: 60%;
+        top:-5rem;
+        width: auto;
+
+    }
+    .anniu11{
+
+        background: #333333;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border: 0;
+        position: relative;
+        left: 90%;
+        top:-7rem;
+    }
+    .anniu12{
+        background: red;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border: 0;
+        position: relative;
+        left: 70%;
+        top:-7rem;
+    }
+    .xiabiao1{
+        display: none;
+    }
+    .xuanfu{
+        display: none;
+    }
+}

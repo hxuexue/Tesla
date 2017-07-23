@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model S</title>
+    <!--<link rel="stylesheet" href="../css/model.css">-->
+    <link rel="shortcut icon" href="../img/Tesla.ico"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!--<link rel="stylesheet" href="../css/animate.css">-->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/mm.css">
+    <link rel="stylesheet" href="../css/md.css">
+    <link rel="stylesheet" href="../css/xs.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <style>
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: rgba(0,0,0,0);
+        }
+
+        .navbar-fixed-top{
+            z-index: 101;
+        }
+        .navbar-header{
+            background: black;
+        }
+        .navbar{
+            background: black;
+        }
+        ul>li>a>b{
+            color: white;
+        }
+        ul>li>a>b:hover{
+            color: grey;
+        }
+        ul>li>a>span{
+            color: white;
+        }
+        ul>li>a>span:hover{
+            color: grey;
+        }
+        a{
+            color: white;
+        }
+        a:hover{
+            color: grey;
+            text-decoration: none;
+        }
+        .mds{
+            color: grey;
+        }
+        ul{
+            list-style: none;
+        }
+        /*.ba1{*/
+            /*!*color: white;*!*/
+            /*-webkit-transition:0.04s linear;transition:0.04s ease-in;}*/
+        /*.ba1:hover {*/
+        /*-webkit-transform:rotate(45deg);transform:rotate(45deg);*/
+        /*}*/
+        /*.ba3{-webkit-transition:0.04s linear;transition:0.04s ease-in;}*/
+        /*.ba3:hover {*/
+            /*-webkit-transform:rotate(-45deg);transform:rotate(-45deg);*/
+        /*}*/
+        .icon-bar{
+            border: 1px solid white;
+        }
+        .btn{
+           border: 0;
+        }
+
+        /*.biao{-webkit-transition:0.04s linear;transition:0.04s ease-in;}*/
+        /*.chuse{-webkit-transition:0.4s linear;transition:0.4s ease-in;}*/
+        /*.chumo{-webkit-transition:0.04s linear;transition:0.04s ease-in;}*/
+        /*.zidong{-webkit-transition:0.04s linear;transition:0.04s ease-in;}*/
+        /*.diandong{-webkit-transition:0.04s linear;transition:0.04s ease-in;}*/
+        /*.biao:hover {*/
+            /*-webkit-transform:rotate(9deg);transform:rotate(9deg);*/
+        /*}*/
+        /*.chuse:hover {*/
+            /*-webkit-transform:rotate(360deg);transform:rotate(360deg);*/
+        /*}*/
+        /*.chumo:hover {*/
+            /*-webkit-transform:rotate(9deg);transform:rotate(9deg);*/
+        /*}*/
+        /*.zidong:hover {*/
+            /*-webkit-transform:rotate(9deg);transform:rotate(9deg);*/
+        /*}*/
+        /*.diandong:hover {*/
+            /*-webkit-transform:rotate(9deg);transform:rotate(9deg);*/
+        /*}*/
+        #ww1 {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -webkit-animation: play 0.3s linear infinite;
+            -moz-animation: play 0.3s linear infinite;
+            animation: play 0.3s linear infinite;
+        }
+        #ww2 {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -webkit-animation: play 0.3s linear infinite;
+            -moz-animation: play 0.3s linear infinite;
+            animation: play 0.3s linear infinite;
+        }
+        #ww3 {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -webkit-animation: play 0.3s linear infinite;
+            -moz-animation: play 0.3s linear infinite;
+            animation: play 0.3s linear infinite;
+        }
+       #ww4 {
+           -webkit-transform: translate3d(0, 0, 0);
+           -moz-transform: translate3d(0, 0, 0);
+           transform: translate3d(0, 0, 0);
+           -webkit-animation: play 0.3s linear infinite;
+           -moz-animation: play 0.3s linear infinite;
+           animation: play 0.3s linear infinite;
+       }
+        @-webkit-keyframes play {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(-360deg);
+
+            }
+        }
+        @-moz-keyframes play {
+            0% {
+                -moz-transform: rotate(0deg);
+            }
+            100% {
+                -moz-transform: rotate(-360deg);
+            }
+        }
+        @keyframes play {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+
+        #pic{clear:both;}/*图片区域*/
+        /*#pic img{width:595px;height:340px}!*图片宽度和高度，可自行修改*!*/
+        #play{clear:both;display:none;}/*视频区域-最初先设为隐藏*/
+
+        #pic1{clear:both;}/*图片区域*/
+        /*#pic1 img{width:468px;height:273px}!*图片宽度和高度，可自行修改*!*/
+        #play1{clear:both;display:none;}/*视频区域-最初先设为隐藏*/
+    </style>
+</head>
+<body>
+<div id="page">
+    <div class="content">
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-brand">
+        <a href="../../host/Tesla_HostPage.html"><img src="../img/logo.png" alt="" height="15px" class="ig"></a>
+    </div>
+    <div class="container" data-toggle="#caidan">
+        <div class="navbar-header">
+            <a class="btn btn-warning navbar-toggle" id="btn" data-toggle="collapse" href="#caidan" >
+                <span class="icon-bar ba1" id="bb1"></span>
+                <span class="icon-bar ba2" id="bb2"></span>
+                <span class="icon-bar ba3" id="bb3"></span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" id="caidan">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#" class="md navbar-link"><b class="mds">MODEL S</b></a></li>
+                <li><a href="../../modelx/modelx/mobileX.html" class="md navbar-link "><b>MODEL X</b></a></li>
+                <li><a href="../../model3/htm/model3.html" class="md navbar-link "><b>MODEL 3</b></a></li>
+                <li><a href="../../tesla超级充电站/tesla超级充电站.html" class="md navbar-link "><b>超级充电站</b></a></li>
+                <li><a href="../../energy/energy.html" class="md navbar-link "><b>ENERGY</b></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="mc navbar-link "><span>资讯中心</span></a></li>
+                <li><a href="#" class="mc navbar-link "><span>问题解答</span></a></li>
+                <li><a href="#" class="mc navbar-link"><span>如何充电</span></a></li>
+                <li><a href="#" class="mc navbar-link "><span>找到我们</span></a></li>
+                <li><a href="../../host/Tesla_Login.html" class="mc navbar-link"><span>MY TESLA</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+        <div class="dibu">
+            <div class="ms"><b>Model S</b></div>
+            <button class="anniu"><a href="立即订购.html">预约试驾</a> </button>
+            <button class="anniu1"><a href="立即订购.html">立即订购</a> </button>
+        </div>
+        <div class="nav1">
+            <img src="../img/background.jpg" class="img img-responsive" style="display: block;text-align: center" alt="">
+            <!--<img src="../img/bg1.png" class="img1 img-responsive" style="display: none" alt="">-->
+            <ul class="clearfix">
+                <li><a href=""><b>MODEL S</b></a></li>
+            </ul>
+            <ul >
+                <li><a href="" class="uu1">预约试驾</a></li>
+                <li><a href="" class="uu2">立即订购</a></li>
+                <li><a href="" class="uu3">准现车</a></li>
+                <li><a href="" class="uu4">认证二手车</a></li>
+            </ul>
+            <div>
+                <hr class="xian">
+            </div>
+        </div>
+        <div class="zhu">
+            <div class="chuse">出色的安全和性能表现</div>
+            <div class="jianjie">Model&nbsp; S 自诞生之日起就是为了成为一款安全、高性能的轿车而设计。得益于特斯拉独特的纯电动动
+                力总成，Model S 的性能表现十分出色，0-100公里/小时加速最快仅需 2.7 秒。通过 Autopilot 自动辅
+                助驾驶（选装），Model S 还可以使高速公路驾驶更为安全且轻松，让你更好的享受驾驶乐趣。</div>
+            <div class="tu">
+                <div class="tt1">
+                    <div class="tu1"><img src="../img/1.png" alt="" class="img-responsive"></div>
+                    <div class="z1">自适应大灯</div>
+                    <div class="z11">Model S 现已新增全 LED 自适应前照灯系统（选装）。新车
+                        灯的外形更为优雅，安全性也进一步提升：14个动态 LED 转
+                        向灯可显著改善夜间驾驶，尤其是夜间弯道行驶时的可见度。</div>
+                </div>
+                <div class="tt2">
+                    <div class="tu2"><img src="../img/2.png" class="img-responsive" alt=""></div>
+                    <div class="z2">HEPA 空气过滤系统</div>
+                    <div class="z22">Model S 现已新增高性能的 HEPA 空气过滤系统（选装），能
+                        够过滤掉 99.97% 以上的尾气污染物微粒，并有效滤除车内空
+                        气中的一切过敏原、细菌及其他杂质。</div>
+                </div>
+            </div>
+            <div class="dong">
+                <div class="zidong">全自动驾驶硬件</div>
+                <div class="shipin1 img-responsive">
+                    <!--<video  src="../data/birds.mp4" width="595px" height="340px" autoplay muted loop controls class="bird1 img-responsive"></video>-->
+                    <div id="pic" width="595px" height="340px"><a href="JavaScript:vide();"><img src="../data/w.jpg" width="595px" height="340px" class="bird1 img-responsive"></a></div>
+                    <div id="play"><video src="../data/Tesla%20Model%20S.mp4" width="595px" height="340px"  autoplay muted controls class="bird1 img-responsive"></video></div>
+                    <!--<script src="../js/jquery-1.11.3.js"></script>-->
+                </div>
+                <div class="xing">*以上视频显示的是搭载全自动驾驶功能硬件并启用相关功能的特斯拉纯电动汽车进行演示的效果。</div>
+                <div class="jie">现在所有在特斯拉工厂生产的车型（包括Model 3）均配备具有全自动驾驶功能的硬件，相比人类
+                    驾驶，新硬件将从根本上提高车辆行驶的安全性。</div>
+            </div>
+            <div class="btn11">
+                <input type="button" value="立即订购" class="btn1" id="">
+                <input type="button" value="了解更多" class="btn2">
+            </div>
+            <div class="quanlun">
+                <div class="diandong">电动全轮驱动</div>
+                <div class="che"><img src="../img/p100.png" class="img3 img-responsive" alt=""></div>
+                <div class="che1"><img src="../img/hou.png" class="img3 img-responsive" alt=""></div>
+                <div class="che2"><img src="../img/single.png" class="img3 img-responsive" alt=""></div>
+                <div id="ad5" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="none">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../img/p1001.jpg" class="img3 img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <h4>P100D</h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../img/hou1.jpg"  class="img3 img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <h4>双电机</h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../img/single.jpg" class="img3 img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <h4>单电机</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <a  data-slide="prev" href="#ad5" class="carousel-control left">
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+
+                    </a>
+                    <a  data-slide="next" href="#ad5" class="carousel-control right">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    <ul class="carousel-indicators">
+                        <li data-slide-to="0" class="active" data-target="#ad5"></li>
+                        <li data-slide-to="1"  data-target="#ad5"></li>
+                        <li data-slide-to="2"  data-target="#ad5"></li>
+                    </ul>
+
+                </div>
+                <div class="ju"><div class="bbtn1" id="bbtn1" ><img src="../img/shuang.jpg" alt=""></div>
+                    <div class="bbtn11" id="bbtn11"><img src="../img/shuang1.jpg" alt=""></div>
+                    <div class="bbtn2" id="bbtn2"><img src="../img/p100.jpg" alt=""></div>
+                    <div class="bbtn22" id="bbtn22"><img src="../img/p100d.jpg" alt=""></div>
+                    <div class="bbtn3" id="bbtn3"><img src="../img/dan.jpg" alt=""></div>
+                    <div class="bbtn33" id="bbtn33"><img src="../img/dan1.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="bing">
+                <div class="zuo">
+                    双电机 Model S 是对传统全轮驱动系统的一项创新性改进。车身前后各搭
+                    载一台电动机，通过对前后轮扭矩分别进行数字化独立控制，实现了在各种
+                    路况下的全天候牵引力控制。<br><br>
+
+                    传统全轮驱动汽车通过复杂的机械联动装置，将动力从单一发动机传送到全
+                    部四个车轮。虽然实现了全时四驱，却是以牺牲效率为代价。与此相反，
+                    Model S 的两部电机都更轻、更小、更高效，因此提升了续航里程并拥有更
+                    好的加速表现。<br><br>
+
+                    Performance 高性能版 Model S 标配全轮驱动双电机，高性能版后置及高
+                    效率的前置联动，实现超跑级别的加速表现，仅需 2.7 秒，即可从静止加速
+                    至 100 公里/小时。
+                </div>
+                <div class="you">
+                    <video src="../data/Tesla%20Model%20S.mp4" class="img-responsive" width="468px" height="273px" autoplay muted loop controls></video>
+                    <div class="xue">挑战冬季冰雪驾驶</div>
+                    <div class="xue1">来自瑞士旅行俱乐部的专业冬季驾驶课。</div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="jiashiyuan">以驾驶员为中心进行设计</div>
+                <div class="tiyan">
+                    Model S 拥有极佳的驾驶体验。驾驶室将精密的噪声工程设计与特斯拉独有的安静动力总成相结合，
+                    实现了录音室般的音效控制。 17 英寸超大触摸屏是内饰中的亮点，其位置略偏向于驾驶者以方便操
+                    作，有日间和夜间两种模式，通过互联网提供丰富的媒体娱乐功能，同时内置导航功能，方便搜索目
+                    的地或附近的新餐厅。</div>
+
+                <div class="tuu1"><img src="11.jpg" alt="" id="images" class="img2 img-responsive"></div>
+                <div class="tuu2"><img src="12.jpg" alt="" class="img2 img-responsive"></div>
+                <div class="tuu3"><img src="13.jpg" alt="" class="img2 img-responsive"></div>
+                <div class="tuu4"><img src="14.jpg" alt="" class="img2 img-responsive"></div>
+                <div class="tuu5"><img src="15.jpg" alt="" class="img2 img-responsive"></div>
+                <div><input type="button" class="jtz" value="&nbsp;<" onclick = "changeImg('pre')"></div>
+                <div><input type="button" class="jty" value="&nbsp;>" onclick = "changeImg('next')"></div>
+            </div>
+            <div class="anquan">
+                <div class="quan">安全</div>
+                <div class="anan">
+                    <div class="zz1">
+                        Model S 自诞生之日起就是为了成为最安全的汽车而设计。其安全性能主要
+                        得益于独特的电子传动系统。该系统位于车辆铝制乘员舱底部，并封装于单
+                        独壳体内。这一独特的布置，用可以吸收冲击力的硼钢轨取代了笨重的发动
+                        机缸体，降低了汽车重心，从而提高操控性能，最大程度的降低翻车风险。<br><br>
+
+                        当遭遇侧面碰撞时，经钢轨加固的铝柱可有效减少侵入，从而保护乘员舱和
+                        电池组，同时提高车顶强度。发生事故时，六个安全气囊会保护前排和后排
+                        乘员，电池系统会自动切断主电源。
+                    </div>
+                    <div class="shipin2">
+                        <video src="../data/T.mp4" class="img-responsive" width="415px" height="240px" autoplay muted loop controls></video>
+                        <div class="an1">安全意味着什么</div>
+                        <div class="an2"> Model S 帮助吉米从一次严重事故中逃生。</div>
+                    </div>
+                </div>
+            </div>
+            <hr class="xian1">
+            <div class="ping">
+                <div class="chumo">触摸屏</div>
+                <div class="wenzi">
+                    <div class="zizi1">Model S 的 17 英寸触摸屏能够控制车内的大部分功能。无论
+                        是打开全景天窗、调节空调设置、或者给广播电台换一个频
+                        道，只需在触摸屏上点击或轻划一下即可。触摸屏、数字化组
+                        合仪表盘和方向盘按键，无缝集成了多媒体、导航、通信、驾
+                        驶室控制系统和车辆数据显示。</div>
+                    <div class="shipin3">
+                        <video src="../data/T.mp4" class="img-responsive" width="410px" height="245px" autoplay muted loop controls ></video></div>
+                    <div class="zizi2">更实用的驾驶体验</div>
+                    <div class="zizi3">前沿的科技改变了西蒙对驾驶的看法。</div>
+                </div>
+                <div class="xingneng1">媒体<br>
+                    AM/FM收音机、网络电台、蓝牙®
+                    和 USB 音频<br><br><br>
+
+                    摄像头<br>
+                    高清后视摄像头，优化了可视性和
+                    安全性<br><br><br>
+
+                    地图<br>
+                    简单、直观的车载地图<br><br><br>
+
+                    能量<br>
+                    实时能量消耗和里程估算<br>
+                </div>
+                <div class="xingneng2">
+                    控制系统<br>
+                    个性化行驶参数设置、温度控制以
+                    及驾驶室控制<br><br><br>
+
+                    日历<br>
+                    与您的日程表同步，并可一键导航<br><br><br>
+
+
+                    导航<br>
+                    路线规划和导航功能<br><br><br>
+
+                    电话<br>
+                    支持蓝牙、语音控制的免提电话系统<br>
+                </div>
+                <div class="zizi4">
+                    Model S 通过 OTA "空中升级" 的方式定期获得新的特性和功能，不断优化<br>
+                    触摸屏的用户体验。</div>
+            </div>
+            <!--<div class="gg">-->
+            <div class="gengxin">
+                <input type="button" class="liaojie" value="了解更多">
+            </div>
+            <div class="xuhang">
+                <div class="biao">最高续航里程</div>
+                <div class="che6"><img src="../img/che3.jpg" alt=""></div>
+                <div class="wheel1" data-wow-iteration="100" data-wow-delay="-1s" id="ww1"><img src="../img/19-wheel.png" alt=""></div>
+                <div class="wheel2" id="ww2"><img src="../img/19-wheel.png" alt=""></div>
+                <div class="wheel3" id="ww3"><img src="../img/19-wheel@2x.png" width="100px" height="100px" alt=""></div>
+                <div class="wheel4" id="ww4"><img src="../img/19-wheel@2x.png" width="100px" height="100px" alt=""></div>
+            </div>
+            <div class="pd">
+                <img src="../img/pd.jpg" alt="">
+                <div class="a75">450KM</div>/
+                <div class="a75D">466KM</div>
+                <div class="a100D">594KM</div>
+                <div class="P100D">572KM</div>
+                <div class="a751">440KM</div>/
+                <div class="a75D1">456KM</div>
+                <div class="a100D1">582KM</div>
+                <div class="P100D1">574KM</div>
+
+            </div>
+            <div class="tiao">
+                <div class="sudu"><div class="du">行驶速度</div>
+                    <div class="tiao1"><br>&nbsp;&nbsp;&nbsp;&nbsp;100KMH</div>
+                    <input type="button"  class="shang1">
+                    <input type="button"  class="xia1">
+                </div>
+                <div class="wdu"><div class="wendu">车外温度</div>
+                    <div class="tiao2"><br>&nbsp;&nbsp;&nbsp;&nbsp;20°</div>
+                    <input type="button"  class="shang2">
+                    <input type="button"  class="xia2">
+                    <div class="zhong1"><img src="../img/kongtiao.jpg" alt=""></div>
+                    <div class="zhong2"><img src="../img/refeng.jpg" alt=""></div>
+                </div>
+                <div class="cc">
+                    <div class="cc1">轮毂尺寸</div>
+                    <input type="button"  class="chicun1" id="chicun1">
+                    <input type="button"  class="chicun2" id="chicun2">
+                </div>
+            </div>
+            <div class="wenwen">在实际道路行驶中，车辆的续航数字会根据使用状况而不断调整。 上述计算模型演示了各种因素是如何影响续航里程的。
+                车辆实际里程会因车辆配置、电池使用时长和状况、驾驶习惯及操作、环境和气候状况等因素的影响而有所不同。
+            </div>
+            <div class="guige">
+                <div class="gui">规格</div>
+                <hr class="xian2">
+                <img src="../img/guige.jpg" alt="" class="gg">
+
+            </div>
+            <div class="xiabiao">
+                <div class="tub"><a href="#"><img src="../img/icp.png" alt=""></a></div>
+                <div class="guo"><a href="#"><img src="../img/zhongguo.png" alt="" width="30px" height="20px"></a></div>
+                <a href="#" class="di">Tesla @ 2017</a> |&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="di">京公网安备 11011502002791号</a>|&nbsp;
+                <a href="#" class="di">隐私&法律</a>|&nbsp;
+                <a href="#" class="di">联系人信息</a>|&nbsp;
+                <a href="工作机会.html" class="di">工作机会</a>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="di">中国</a>
+            </div>
+        <div class="xiabiao1" id="xiabiao1">
+
+
+            <div class="di1"><a href="#" >Tesla @ 2017</a></div>
+            <div class="tub"><a href="#"><img src="../img/icp.png" alt=""></a></div>
+            <div class="di2"><a href="#" >京公网安备 11011502002791号</a></div>
+            <div class="di3"><a href="#" >隐私&法律</a></div>
+            <div class="di4" id="xinxi"> <a href="#xiabiao1" >联系人信息</a></div>
+            <div class="di5"><a href="工作机会.html" >工作机会</a></div>
+            <div class="ch" id="zg"><input type="button" class="zg" value="中国"></div>
+            <div class="di6" id="di6"><img src="../img/zhongguo.png" alt="" width="18px" height="12px" ></div>
+        </div>
+        </div>
+            <!--</div>-->
+
+        <div class="dibu1">
+            <hr class="xian3">
+            <div class="ms">Model&nbsp;&nbsp;S</div>
+            <div class="shenqing">申请金融服务或车辆置换</div>
+            <button class="anniu11"><a href="立即订购.html">预约试驾</a> </button>
+            <button class="anniu12"><a href="立即订购.html">立即订购</a> </button>
+        </div>
+        <div class="dibu">
+            <div class="ms"><b>Model S</b></div>
+            <button class="anniu"><a href="立即订购.html">预约试驾</a> </button>
+            <button class="anniu1"><a href="立即订购.html">立即订购</a> </button>
+        </div>
+        <div class="xuanfu">
+            <img src="../img/country.png" class="img5 img-responsive" alt="">
+        </div>
+ </div>
+</div>
+
+<script>
+    var bbtn1=document.getElementById("bbtn1");
+    // var bbtn2=document.getElementById("bbtn2");
+    var bbtn3=document.getElementById("bbtn3");
+    // var bbbtn11=document.getElementById("bbtn11");
+    var bbbtn22=document.getElementById("bbtn22");
+    // var bbbtn33=document.getElementById("bbtn33");
+    // var anniu1=document.getElementById("anniu1");
+    var abtn1=document.querySelector(".bbtn1");
+    var abtn2=document.querySelector(".bbtn2");
+    var abtn3=document.querySelector(".bbtn3");
+    var bbtn11=document.querySelector(".bbtn11");
+    var bbtn22=document.querySelector(".bbtn22");
+    var bbtn33=document.querySelector(".bbtn33");
+    var che=document.querySelector(".che");
+    var che1=document.querySelector(".che1");
+    var che2=document.querySelector(".che2");
+    bbtn1.onclick=function () {
+        abtn1.style.display="none";
+        bbtn11.style.display="block";
+        abtn2.style.display="none";
+        abtn3.style.display="block";
+        bbtn22.style.display="block";
+        bbtn33.style.display="none";
+        che.style.display="none";
+        che1.style.display="block";
+        che2.style.display="none";
+
+    }
+    // bbbtn11.onclick=function () {
+    //     abtn1.style.display="block";
+    //     bbtn11.style.display="none";
+    //     abtn2.style.display="none";
+    //     abtn3.style.display="block";
+    //     bbtn22.style.display="block";
+    //     bbtn33.style.display="none";
+    // }
+    // bbtn2.onclick=function () {
+    //     abtn2.style.display="none";
+    //     bbtn22.style.display="block";
+    //     abtn1.style.display="block";
+    //     bbtn11.style.display="none";
+    //     abtn3.style.display="block";
+    //     bbtn33.style.display="none";
+    //     che.style.display="none";
+    //     che1.style.display="block";
+    //     che2.style.display="none";
+    // }
+    bbbtn22.onclick=function () {
+        abtn2.style.display="block";
+        bbtn22.style.display="none";
+        abtn1.style.display="block";
+        bbtn11.style.display="none";
+        abtn3.style.display="block";
+        bbtn33.style.display="none";
+        che.style.display="block";
+        che1.style.display="none";
+        che2.style.display="none";
+    }
+    bbtn3.onclick=function () {
+        abtn3.style.display="none";
+        bbtn33.style.display="block";
+        abtn1.style.display="block";
+        bbtn11.style.display="none";
+        abtn2.style.display="none";
+        bbtn22.style.display="block";
+        che.style.display="none";
+        che1.style.display="none";
+        che2.style.display="block";
+    }
+
+
+    var now = 11;
+    function changeImg(which) {
+
+        var img = document.getElementById("images");
+        if (which == 'pre') {
+            now--;
+            if (now < 11) {
+
+                now = 15;
+                img.src = now + ".jpg"
+            }
+            img.src = now + ".jpg";
+
+
+        } else {
+
+            now++;
+            if (now > 15) {
+                now = 11;
+                img.src = now + ".jpg";
+            }
+            img.src = now + ".jpg";
+
+        }
+    }
+
+    var chicun1=document.getElementById("chicun1");
+    var chicun2=document.getElementById("chicun2");
+    var wheel1=document.querySelector(".wheel1");
+    var wheel2=document.querySelector(".wheel2");
+    var wheel3=document.querySelector(".wheel3");
+    var wheel4=document.querySelector(".wheel4");
+    var a75=document.querySelector(".a75");
+    var a75D=document.querySelector(".a75D");
+    var a100D=document.querySelector(".a100D");
+    var P100D=document.querySelector(".P100D");
+    var a751=document.querySelector(".a751");
+    var a75D1=document.querySelector(".a75D1");
+    var a100D1=document.querySelector(".a100D1");
+    var P100D1=document.querySelector(".P100D1");
+    chicun1.onclick=function () {
+        wheel1.style.display="block";
+        wheel2.style.display="block";
+        wheel3.style.display="none";
+        wheel4.style.display="none";
+        a75.style.display="block";
+        a75D.style.display="block";
+        a100D.style.display="block";
+        P100D.style.display="block";
+        a751.style.display="none";
+        a75D1.style.display="none";
+        a100D1.style.display="none";
+        P100D1.style.display="none";
+    }
+    chicun2.onclick=function () {
+        wheel3.style.display="block";
+        wheel4.style.display="block";
+        wheel1.style.display="none";
+        wheel2.style.display="none";
+        a75.style.display="none";
+        a75D.style.display="none";
+        a100D.style.display="none";
+        P100D.style.display="none";
+        a751.style.display="block";
+        a75D1.style.display="block";
+        a100D1.style.display="block";
+        P100D1.style.display="block";
+    }
+
+    var clickNumber =0;
+    var ch=document.getElementById("zg");
+    var di6=document.getElementById("di6");
+    var xuanfu=document.querySelector(".xuanfu");
+    var xinxi=document.getElementById("xinxi");
+    var di7=document.querySelector("di7");
+    di6.onclick=function(){
+        if(clickNumber %2==0){
+            xuanfu.style.display="block";
+        }else{
+            xuanfu.style.display="none";
+        }
+        clickNumber ++;
+    }
+    ch.onclick=function () {
+        if(clickNumber %2==0){
+            xuanfu.style.display="block";
+        }else{
+            xuanfu.style.display="none";
+        }
+        clickNumber ++;
+    }
+
+//    function $(v){return document.getElementById(v);}
+//    function view(id){$(id).style.display = "block";}
+//    function hide(id){$(id).style.display = "none";}
+//    function vide1(){//点击图片显示视频
+//        hide("pic1");view("play1");
+//    }
+
+    var pic=document.getElementById("pic");
+    var play=document.getElementById("play");
+    pic.onclick=function () {
+        play.style.display="block";
+        pic.style.display="none";
+    }
+    play.onclick=function () {
+        play.style.display="none";
+        pic.style.display="block";
+    }
+</script>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/wow.js"></script>
+<script src="../js/wow.min.js"></script>
+<script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+
+<!--<script>-->
+    <!--new WOW().init();-->
+<!--</script>-->
+</body>
+</html>
